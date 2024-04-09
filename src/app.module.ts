@@ -11,11 +11,14 @@ import { ReviewsModule } from './reviews/reviews.module';
 import { SubscriptionsModule } from './subscriptions/subscriptions.module';
 import { BoughtSubscriptionsModule } from './bought_subscriptions/bought_subscriptions.module';
 import { TransactionsModule } from './transactions/transactions.module';
+import { CategoriesModule } from './categories/categories.module';
+import { ExpensesModule } from './expenses/expenses.module';
+import { IncomesModule } from './incomes/incomes.module';
 
 @Module({
   imports: [UsersModule, CustomersModule, DatabaseModule,
             AuthModule, TrainersModule, AdminsModule,
             TrainerClassesModule, GroupClassesModule, ReviewsModule,
-            SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule]
+            SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule, CategoriesModule, ExpensesModule, IncomesModule]
 })
 export class AppModule {}
