@@ -1,6 +1,9 @@
 import { DataSource } from 'typeorm';
 import {User} from "../users/entities/user.entity";
 import {Customer} from "../customers/entities/customer.entity";
+import {Subscription} from "../subscriptions/entities/subscription.entity";
+import {Trainer} from "../trainers/entities/trainer.entity";
+import {Admin} from "../admins/entities/admin.entity";
 
 export const databaseProviders = [
     {
@@ -14,7 +17,7 @@ export const databaseProviders = [
                 password: 'Barnie2019',
                 database: 'course_work_gym',
                 entities: [
-                    User, Customer
+                    User, Customer, Admin, Trainer, Subscription
                 ],
                 synchronize: true,
             });
