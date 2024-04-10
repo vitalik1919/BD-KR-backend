@@ -1,26 +1,35 @@
-import { Injectable } from '@nestjs/common';
+import {Inject, Injectable} from '@nestjs/common';
+import { Repository } from 'typeorm';
+import { Income } from './entities/income.entity';
 import { CreateIncomeDto } from './dto/create-income.dto';
 import { UpdateIncomeDto } from './dto/update-income.dto';
 
 @Injectable()
 export class IncomesService {
-  create(createIncomeDto: CreateIncomeDto) {
-    return 'This action adds a new income';
+
+  constructor(
+      @Inject('INCOME_REPOSITORY')
+      private incomeRepository: Repository<Income>,
+  ) {}
+
+  async findAll(): Promise<Income[]> {
+    return this.incomeRepository.find();
   }
 
-  findAll() {
-    return `This action returns all incomes`;
+  async findOne(id: number): Promise<Income | undefined> {
+    return this.incomeRepository.findOne({ where: { id: id } });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} income`;
+  async create(createIncomeDto: CreateIncomeDto): Promise<Income> {
+    return this.incomeRepository.save(createIncomeDto);
   }
 
-  update(id: number, updateIncomeDto: UpdateIncomeDto) {
-    return `This action updates a #${id} income`;
+  async update(id: number, updateIncomeDto: UpdateIncomeDto): Promise<Income | undefined> {
+    await this.incomeRepository.update(id, updateIncomeDto);
+    return this.incomeRepository.findOne({ where: { id: id } });
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} income`;
+  async remove(id: number): Promise<void> {
+    await this.incomeRepository.delete(id);
   }
 }

@@ -1,4 +1,6 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
+import {GroupClass} from "../../group_classes/entities/group_class.entity";
+import {TrainerClass} from "../../trainer_classes/entities/trainer_class.entity";
 
 @Entity({name: 'trainers'})
 export class Trainer {
@@ -17,4 +19,9 @@ export class Trainer {
 
     @Column('varchar', {nullable: false})
     specialty : string
+
+    @OneToMany(() => GroupClass, groupClass => groupClass.trainer)
+    groupClasses : GroupClass[];
+    @OneToMany(() => TrainerClass, trainerClass => trainerClass.trainer)
+    trainerClasses : TrainerClass[];
 }

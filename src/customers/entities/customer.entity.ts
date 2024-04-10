@@ -1,5 +1,9 @@
-import { Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn, OneToMany, ManyToOne } from 'typeorm';
 import { User } from "../../users/entities/user.entity";
+import {Review} from "../../reviews/entities/review.entity";
+import {TrainerClass} from "../../trainer_classes/entities/trainer_class.entity";
+import {BoughtSubscription} from "../../bought_subscriptions/entities/bought_subscription.entity";
+import {GroupClass} from "../../group_classes/entities/group_class.entity";
 
 export enum Gender {
     MALE,
@@ -27,4 +31,15 @@ export class Customer {
     @OneToOne(() => User)
     @JoinColumn({ name: "id", referencedColumnName: "id" })
     user: User;
+
+
+    @ManyToOne(() => GroupClass, groupClass => groupClass.customers)
+    groupClass: GroupClass;
+
+    @OneToMany(() => Review, review => review.customer)
+    reviews: Review[]
+    @OneToMany(() => TrainerClass, trainerClass => trainerClass.customer)
+    trainerClasses: TrainerClass[]
+    @OneToMany(() => BoughtSubscription, boughtSubs => boughtSubs.customer)
+    boughtSubs: BoughtSubscription[]
 }

@@ -1,4 +1,5 @@
-import {Column, Entity, PrimaryGeneratedColumn } from "typeorm"
+import {Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"
+import {BoughtSubscription} from "../../bought_subscriptions/entities/bought_subscription.entity";
 
 @Entity({name: 'subscriptions'})
 export class Subscription {
@@ -21,4 +22,6 @@ export class Subscription {
     @Column('time', {nullable: false})
     end_time : string
 
+    @OneToMany(() => BoughtSubscription, boughtSubs => boughtSubs.subscription)
+    boughtSubs: BoughtSubscription[]
 }

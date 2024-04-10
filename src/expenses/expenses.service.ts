@@ -1,26 +1,35 @@
-import { Injectable } from '@nestjs/common';
+import {Inject, Injectable} from '@nestjs/common';
+import { Repository } from 'typeorm';
+import { Expense } from './entities/expense.entity';
 import { CreateExpenseDto } from './dto/create-expense.dto';
 import { UpdateExpenseDto } from './dto/update-expense.dto';
 
 @Injectable()
 export class ExpensesService {
-  create(createExpenseDto: CreateExpenseDto) {
-    return 'This action adds a new expense';
+
+  constructor(
+      @Inject('EXPENSE_REPOSITORY')
+      private expenseRepository: Repository<Expense>,
+  ) {}
+
+  async findAll(): Promise<Expense[]> {
+    return this.expenseRepository.find();
   }
 
-  findAll() {
-    return `This action returns all expenses`;
+  async findOne(id: number): Promise<Expense | undefined> {
+    return this.expenseRepository.findOne({ where: { id: id } });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} expense`;
+  async create(createExpenseDto: CreateExpenseDto): Promise<Expense> {
+    return this.expenseRepository.save(createExpenseDto);
   }
 
-  update(id: number, updateExpenseDto: UpdateExpenseDto) {
-    return `This action updates a #${id} expense`;
+  async update(id: number, updateExpenseDto: UpdateExpenseDto): Promise<Expense | undefined> {
+    await this.expenseRepository.update(id, updateExpenseDto);
+    return this.expenseRepository.findOne({ where: { id: id } });
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} expense`;
+  async remove(id: number): Promise<void> {
+    await this.expenseRepository.delete(id);
   }
 }

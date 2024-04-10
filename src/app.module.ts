@@ -19,6 +19,7 @@ import { IncomesModule } from './incomes/incomes.module';
   imports: [UsersModule, CustomersModule, DatabaseModule,
             AuthModule, TrainersModule, AdminsModule,
             TrainerClassesModule, GroupClassesModule, ReviewsModule,
-            SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule, CategoriesModule, ExpensesModule, IncomesModule]
+            SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule,
+            CategoriesModule, ExpensesModule, IncomesModule]
 })
 export class AppModule {}

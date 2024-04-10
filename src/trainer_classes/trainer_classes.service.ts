@@ -1,26 +1,35 @@
-import { Injectable } from '@nestjs/common';
+import {Inject, Injectable} from '@nestjs/common';
+import { Repository } from 'typeorm';
+import { TrainerClass } from './entities/trainer_class.entity';
 import { CreateTrainerClassDto } from './dto/create-trainer_class.dto';
 import { UpdateTrainerClassDto } from './dto/update-trainer_class.dto';
 
 @Injectable()
 export class TrainerClassesService {
-  create(createTrainerClassDto: CreateTrainerClassDto) {
-    return 'This action adds a new trainerClass';
+
+  constructor(
+      @Inject('TRAINER_CLASS_REPOSITORY')
+      private trainerClassRepository: Repository<TrainerClass>,
+  ) {}
+
+  async findAll(): Promise<TrainerClass[]> {
+    return this.trainerClassRepository.find();
   }
 
-  findAll() {
-    return `This action returns all trainerClasses`;
+  async findOne(id: number): Promise<TrainerClass | undefined> {
+    return this.trainerClassRepository.findOne({ where: { id: id } });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} trainerClass`;
+  async create(createTrainerClassDto: CreateTrainerClassDto): Promise<TrainerClass> {
+    return this.trainerClassRepository.save(createTrainerClassDto);
   }
 
-  update(id: number, updateTrainerClassDto: UpdateTrainerClassDto) {
-    return `This action updates a #${id} trainerClass`;
+  async update(id: number, updateTrainerClassDto: UpdateTrainerClassDto): Promise<TrainerClass | undefined> {
+    await this.trainerClassRepository.update(id, updateTrainerClassDto);
+    return this.trainerClassRepository.findOne({ where: { id: id } });
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} trainerClass`;
+  async remove(id: number): Promise<void> {
+    await this.trainerClassRepository.delete(id);
   }
 }
