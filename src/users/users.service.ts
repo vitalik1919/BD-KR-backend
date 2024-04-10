@@ -3,6 +3,9 @@ import { Repository } from 'typeorm';
 import { User } from './entities/user.entity';
 import {CreateUserDto} from "./dto/create-user.dto";
 import {UpdateUserDto} from "./dto/update-user.dto";
+import {Trainer} from "../trainers/entities/trainer.entity";
+import {Customer} from "../customers/entities/customer.entity";
+import {Admin} from "../admins/entities/admin.entity";
 
 
 @Injectable()
@@ -17,7 +20,7 @@ export class UsersService {
     return this.userRepository.find();
   }
   async findOne(username: string): Promise<User | undefined> {
-    return this.userRepository.findOne({ where: { username: username } });
+    return await this.userRepository.findOne({ where: { username: username } });
   }
 
   async create(createUserDto: CreateUserDto): Promise<User> {
