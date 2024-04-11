@@ -6,13 +6,14 @@ import {userProviders} from "./users.providers";
 import {customersProviders} from "../customers/customers.providers";
 import {adminsProviders} from "../admins/admins.providers";
 import {trainersProviders} from "../trainers/trainers.providers";
+import {CustomersService} from "../customers/customers.service";
 
 @Module({
   imports: [DatabaseModule],
   controllers: [UsersController],
   providers: [...userProviders, ...customersProviders,
               ...adminsProviders, ...trainersProviders,
-              UsersService],
+              UsersService, CustomersService],
   exports: [UsersService]
 })
 export class UsersModule {

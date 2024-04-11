@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+
 export enum Role {
     CUSTOMER,
     TRAINER,
@@ -15,9 +16,6 @@ export class User {
 
     @Column('varchar', {nullable: false})
     password : string
-
-    @Column('date', {nullable: false})
-    reg_date : string
 
     @Column('int', {nullable: false})
     role : Role
