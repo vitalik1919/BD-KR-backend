@@ -22,6 +22,16 @@ export class TrainerClassesController {
     return this.trainerClassesService.findOne(+id);
   }
 
+  @Get('customer/:id')
+  async findAllOfCustomer(@Param('id') customerId: string) {
+    return this.trainerClassesService.findAllOfCustomer(+customerId)
+  }
+
+  @Get('trainer/:id')
+  async findAllOfTrainer(@Param('id') trainerId: string) {
+    return this.trainerClassesService.findAllOfTrainer(+trainerId)
+  }
+
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateTrainerClassDto: UpdateTrainerClassDto) {
     return this.trainerClassesService.update(+id, updateTrainerClassDto);

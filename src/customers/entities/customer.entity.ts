@@ -23,7 +23,7 @@ export class Customer {
     last_name : string
 
     @Column('int', {nullable: false})
-    gender : number
+    gender : Gender
 
     @Column('date', {nullable: false})
     date_of_birth : string

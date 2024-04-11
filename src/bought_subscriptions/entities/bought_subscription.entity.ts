@@ -12,6 +12,8 @@ export class BoughtSubscription {
     start_date : string
     @Column('date', {nullable: false})
     end_date : string
+    @Column('boolean', {nullable: false})
+    is_active : boolean
 
     @ManyToOne(() => Customer, customer => customer.boughtSubs)
     customer: Customer;

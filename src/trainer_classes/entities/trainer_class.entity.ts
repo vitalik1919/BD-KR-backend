@@ -12,12 +12,12 @@ export class TrainerClass {
     price : number
 
     @Column('time', {nullable: false})
-    start_time : number
+    start_time : string
 
     @Column('time', {nullable: false})
     end_time : string
 
-    @Column('varchar', {nullable: false})
+    @Column('json', {nullable: false})
     weekdays : string[]
 
     @ManyToOne(() => Customer, customer => customer.trainerClasses)

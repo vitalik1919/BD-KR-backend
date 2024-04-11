@@ -20,6 +20,16 @@ export class SubscriptionsService {
     return this.subscriptionRepository.findOne({where: {id : id}});
   }
 
+  async findCustomerSub(customerId : number) {
+    return await this.subscriptionRepository
+        .createQueryBuilder('subscription')
+        .innerJoin('subscription.boughtSubs', 'bought_sub')
+        .where('bought_sub.customerId = :customerId', { customerId })
+        .andWhere('bought_sub.is_active = :is_active', { is_active: true })
+        .select('subscription.type')
+        .getRawOne();
+  }
+
   async create(createSubscriptionDto: CreateSubscriptionDto): Promise<Subscription> {
     return this.subscriptionRepository.save(createSubscriptionDto);
   }

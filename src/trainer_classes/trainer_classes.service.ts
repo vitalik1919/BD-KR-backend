@@ -20,6 +20,32 @@ export class TrainerClassesService {
     return this.trainerClassRepository.findOne({ where: { id: id } });
   }
 
+  async findAllOfCustomer(customerId: number): Promise<any[]> {
+    return this.trainerClassRepository
+        .createQueryBuilder('trainerClass')
+        .leftJoinAndSelect('trainerClass.trainer', 'trainer')
+        .select([
+            'trainerClass.id',
+            'trainer.first_name', 'trainer.last_name',
+            'trainerClass.price', 'trainerClass.start_time',
+            'trainerClass.end_time', 'trainerClass.weekdays'])
+        .where('trainerClass.customer = :customerId', { customerId })
+        .getRawMany();
+  }
+
+  async findAllOfTrainer(trainerId: number): Promise<any[]> {
+    return this.trainerClassRepository
+        .createQueryBuilder('trainerClass')
+        .leftJoinAndSelect('trainerClass.customer', 'customer')
+        .select([
+          'trainerClass.id',
+          'customer.first_name', 'customer.last_name',
+          'trainerClass.price', 'trainerClass.start_time',
+          'trainerClass.end_time', 'trainerClass.weekdays'])
+        .where('trainerClass.trainer = :trainerId', { trainerId })
+        .getRawMany();
+  }
+
   async create(createTrainerClassDto: CreateTrainerClassDto): Promise<TrainerClass> {
     return this.trainerClassRepository.save(createTrainerClassDto);
   }

@@ -22,6 +22,11 @@ export class SubscriptionsController {
     return this.subscriptionsService.findOne(+id);
   }
 
+  @Get('customer/:id')
+  findCustomerSub(@Param('id') customerId : string) {
+    return this.subscriptionsService.findCustomerSub(+customerId)
+  }
+
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateSubscriptionDto: UpdateSubscriptionDto) {
     return this.subscriptionsService.update(+id, updateSubscriptionDto);

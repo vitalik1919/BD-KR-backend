@@ -39,7 +39,7 @@ export class AuthService {
     if (!user) {
       return undefined;
     }
-    let profile
+    let profile : Customer | Admin | Trainer
     switch (user.role) {
       case 0:
         profile = await this.customerRepository.findOne({ where: { id: user.id } });
