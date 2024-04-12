@@ -24,6 +24,16 @@ export class CustomersService {
     return this.customerRepository.save(createCustomerDto);
   }
 
+  async purchaseGroupClass(id : number, updateCustomerDTO : UpdateCustomerDto) {
+
+    const customer = await this.customerRepository.findOne({where: {id: id}});
+    if (!customer) {
+      throw new Error(`Customer with id ${updateCustomerDTO.id} not found`);
+    }
+    customer.groupClass = updateCustomerDTO.groupClass;
+    return this.customerRepository.save(customer);
+  }
+
   async update(id: number, updateCustomerDto: UpdateCustomerDto): Promise<Customer | undefined> {
     await this.customerRepository.update(id, updateCustomerDto);
     return this.customerRepository.findOne({where: {id : id}});

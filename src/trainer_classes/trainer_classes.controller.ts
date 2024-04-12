@@ -16,6 +16,10 @@ export class TrainerClassesController {
   findAll() {
     return this.trainerClassesService.findAll();
   }
+  @Get('available')
+  findAvailable() {
+    return this.trainerClassesService.findAvailable();
+  }
 
   @Get(':id')
   findOne(@Param('id') id: string) {
@@ -35,6 +39,10 @@ export class TrainerClassesController {
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateTrainerClassDto: UpdateTrainerClassDto) {
     return this.trainerClassesService.update(+id, updateTrainerClassDto);
+  }
+  @Patch('customer/:id')
+  addClassToCustomer(@Param('id') id: string, @Body() updateTrainerClassDto: UpdateTrainerClassDto) {
+    return this.trainerClassesService.addClassToCustomer(+id, updateTrainerClassDto)
   }
 
   @Delete(':id')

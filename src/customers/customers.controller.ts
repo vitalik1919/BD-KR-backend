@@ -27,6 +27,11 @@ export class CustomersController {
     return this.customersService.update(+id, updateCustomerDto);
   }
 
+  @Patch('group-class/:id')
+  purchaseGroupClass(@Param('id') id : string, @Body() updateCustomerDTO : UpdateCustomerDto) {
+    return this.customersService.purchaseGroupClass(+id, updateCustomerDTO)
+  }
+
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.customersService.remove(+id);

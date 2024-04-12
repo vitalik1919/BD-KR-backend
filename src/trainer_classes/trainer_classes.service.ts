@@ -1,8 +1,9 @@
 import {Inject, Injectable} from '@nestjs/common';
-import { Repository } from 'typeorm';
+import {IsNull, Repository } from 'typeorm';
 import { TrainerClass } from './entities/trainer_class.entity';
 import { CreateTrainerClassDto } from './dto/create-trainer_class.dto';
 import { UpdateTrainerClassDto } from './dto/update-trainer_class.dto';
+import {UpdateCustomerDto} from "../customers/dto/update-customer.dto";
 
 @Injectable()
 export class TrainerClassesService {
@@ -14,6 +15,19 @@ export class TrainerClassesService {
 
   async findAll(): Promise<TrainerClass[]> {
     return this.trainerClassRepository.find();
+  }
+
+  async findAvailable() : Promise<TrainerClass[]> {
+      return this.trainerClassRepository
+          .createQueryBuilder('trainerClass')
+          .leftJoinAndSelect('trainerClass.trainer', 'trainer')
+          .select([
+              'trainerClass.id',
+              'trainer.first_name', 'trainer.last_name',
+              'trainerClass.price', 'trainerClass.start_time',
+              'trainerClass.end_time', 'trainerClass.weekdays'])
+          .where('trainerClass.customer is null')
+          .getRawMany();
   }
 
   async findOne(id: number): Promise<TrainerClass | undefined> {
@@ -43,7 +57,18 @@ export class TrainerClassesService {
           'trainerClass.price', 'trainerClass.start_time',
           'trainerClass.end_time', 'trainerClass.weekdays'])
         .where('trainerClass.trainer = :trainerId', { trainerId })
+        .andWhere('trainerClass.customerId is not null')
         .getRawMany();
+  }
+
+  async addClassToCustomer(id : number, updateTrainerClassDTO : UpdateTrainerClassDto) {
+
+      const trainerClass = await this.trainerClassRepository.findOne({where: {id: id}});
+      if (!trainerClass) {
+            throw new Error(`Trainer class with id ${trainerClass.id} not found`);
+      }
+      trainerClass.customer = updateTrainerClassDTO.customer;
+      return this.trainerClassRepository.save(trainerClass);
   }
 
   async create(createTrainerClassDto: CreateTrainerClassDto): Promise<TrainerClass> {
