@@ -4,6 +4,7 @@ import { TrainerClass } from './entities/trainer_class.entity';
 import { CreateTrainerClassDto } from './dto/create-trainer_class.dto';
 import { UpdateTrainerClassDto } from './dto/update-trainer_class.dto';
 import {UpdateCustomerDto} from "../customers/dto/update-customer.dto";
+import {TrainerClassFilterDTO} from "./dto/TrainerClassFilterDTO";
 
 @Injectable()
 export class TrainerClassesService {
@@ -70,6 +71,45 @@ export class TrainerClassesService {
       trainerClass.customer = updateTrainerClassDTO.customer;
       return this.trainerClassRepository.save(trainerClass);
   }
+
+    async filterClasses(filterDTO: TrainerClassFilterDTO): Promise<TrainerClass[]> {
+        const { minPrice, maxPrice, chosenWeekdays, startTime, endTime } = filterDTO;
+
+        let query = this.trainerClassRepository.createQueryBuilder('trainer_class')
+            .select([
+                'trainer_class.id',
+                'trainer.first_name',
+                'trainer.last_name',
+                'trainer_class.price',
+                'trainer_class.start_time',
+                'trainer_class.end_time',
+                'trainer_class.weekdays'
+            ])
+            .leftJoin('trainer_class.trainer', 'trainer')
+            .where('trainer_class.customer is null');
+
+        if (minPrice !== undefined && maxPrice !== undefined) {
+            query = query.andWhere('trainer_class.price BETWEEN :minPrice AND :maxPrice', { minPrice, maxPrice });
+        } else if (minPrice !== undefined) {
+            query = query.andWhere('trainer_class.price >= :minPrice', { minPrice });
+        } else if (maxPrice !== undefined) {
+            query = query.andWhere('trainer_class.price <= :maxPrice', { maxPrice });
+        }
+
+        if (startTime !== undefined) {
+            query = query.andWhere('trainer_class.start_time >= :startTime', { startTime });
+        }
+        if (endTime !== undefined) {
+            query = query.andWhere('trainer_class.end_time <= :endTime', { endTime });
+        }
+
+        if (chosenWeekdays && chosenWeekdays.length > 0) {
+            const searchConditions = chosenWeekdays.map((day, index) => `JSON_SEARCH(trainer_class.weekdays->"$.weekdays", 'one', :day${index}) IS NOT NULL`).join(' OR ');
+            query = query.andWhere(`(${searchConditions})`, chosenWeekdays.reduce((params, day, index) => ({ ...params, [`day${index}`]: day }), {}));
+        }
+
+        return await query.getMany();
+    }
 
   async create(createTrainerClassDto: CreateTrainerClassDto): Promise<TrainerClass> {
     return this.trainerClassRepository.save(createTrainerClassDto);

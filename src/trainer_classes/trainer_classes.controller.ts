@@ -2,6 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { TrainerClassesService } from './trainer_classes.service';
 import { CreateTrainerClassDto } from './dto/create-trainer_class.dto';
 import { UpdateTrainerClassDto } from './dto/update-trainer_class.dto';
+import {TrainerClassFilterDTO} from "./dto/TrainerClassFilterDTO";
 
 @Controller('trainer-classes')
 export class TrainerClassesController {
@@ -16,14 +17,10 @@ export class TrainerClassesController {
   findAll() {
     return this.trainerClassesService.findAll();
   }
+
   @Get('available')
   findAvailable() {
     return this.trainerClassesService.findAvailable();
-  }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.trainerClassesService.findOne(+id);
   }
 
   @Get('customer/:id')
@@ -34,6 +31,11 @@ export class TrainerClassesController {
   @Get('trainer/:id')
   async findAllOfTrainer(@Param('id') trainerId: string) {
     return this.trainerClassesService.findAllOfTrainer(+trainerId)
+  }
+
+  @Post('filtered')
+  async filterClasses(@Body() filterDTO : TrainerClassFilterDTO) {
+    return this.trainerClassesService.filterClasses(filterDTO)
   }
 
   @Patch(':id')
