@@ -74,6 +74,9 @@ export class SubscriptionsService {
       query = query.andWhere(`(${conditions})`, daysAmount.reduce((params, day, index) => ({ ...params, [`day${index}`]: day }), {}));
     }
 
+    query.orderBy('subscription.price', 'ASC')
+        .addOrderBy('subscription.start_time', 'ASC')
+
     return await query.getMany();
 
   }

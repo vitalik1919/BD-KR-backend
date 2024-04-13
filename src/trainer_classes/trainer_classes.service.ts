@@ -111,6 +111,10 @@ export class TrainerClassesService {
             query = query.andWhere(`(${searchConditions})`, chosenWeekdays.reduce((params, day, index) => ({ ...params, [`day${index}`]: day }), {}));
         }
 
+        query.orderBy('trainer_class.price', 'ASC')
+             .addOrderBy('trainer.first_name', 'ASC')
+             .addOrderBy('trainer_class.start_time', 'ASC')
+
         return await query.getMany();
     }
 
