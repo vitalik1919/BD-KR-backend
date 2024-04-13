@@ -8,11 +8,9 @@ export class BoughtSubscription {
     @PrimaryGeneratedColumn()
     id : number
 
-    @Column('date', {nullable: false})
+    @Column('timestamp', {nullable: false, default: () => "CURRENT_TIMESTAMP" })
     start_date : string
-    @Column('date', {nullable: false})
-    end_date : string
-    @Column('boolean', {nullable: false})
+    @Column('boolean', {nullable: false, default: true})
     is_active : boolean
 
     @ManyToOne(() => Customer, customer => customer.boughtSubs)

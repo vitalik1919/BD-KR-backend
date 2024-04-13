@@ -28,6 +28,9 @@ export class TrainerClassesService {
               'trainerClass.price', 'trainerClass.start_time',
               'trainerClass.end_time', 'trainerClass.weekdays'])
           .where('trainerClass.customer is null')
+          .orderBy('trainerClass.price', 'ASC')
+          .addOrderBy('trainer.first_name', 'ASC')
+          .addOrderBy('trainerClass.start_time', 'ASC')
           .getRawMany();
   }
 

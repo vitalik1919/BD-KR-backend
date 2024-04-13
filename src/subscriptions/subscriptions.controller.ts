@@ -2,6 +2,8 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { SubscriptionsService } from './subscriptions.service';
 import { CreateSubscriptionDto } from './dto/create-subscription.dto';
 import { UpdateSubscriptionDto } from './dto/update-subscription.dto';
+import {TrainerClassFilterDTO} from "../trainer_classes/dto/TrainerClassFilterDTO";
+import {SubscriptionsFilterDTO} from "./dto/subscriptionsFilterDTO";
 
 @Controller('subscriptions')
 export class SubscriptionsController {
@@ -15,6 +17,11 @@ export class SubscriptionsController {
   @Get()
   findAll() {
     return this.subscriptionsService.findAll();
+  }
+
+  @Post('filtered')
+  async filterClasses(@Body() filterDTO : SubscriptionsFilterDTO) {
+    return this.subscriptionsService.filterSubscriptions(filterDTO)
   }
 
   @Get(':id')
