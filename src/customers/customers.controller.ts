@@ -17,19 +17,24 @@ export class CustomersController {
     return this.customersService.findAll();
   }
 
+  @Get('current-group/:id')
+  findCustomerClass(@Param('id') id: string) {
+    return this.customersService.findCustomerClass(+id)
+  }
+
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.customersService.findOne(+id);
+  }
+  @Patch('group-class/:id')
+  purchaseGroupClass(@Param('id') id : string, @Body() updateCustomerDTO : UpdateCustomerDto) {
+    return this.customersService.purchaseGroupClass(+id, updateCustomerDTO)
   }
 
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateCustomerDto: UpdateCustomerDto) {
     return this.customersService.update(+id, updateCustomerDto);
-  }
-
-  @Patch('group-class/:id')
-  purchaseGroupClass(@Param('id') id : string, @Body() updateCustomerDTO : UpdateCustomerDto) {
-    return this.customersService.purchaseGroupClass(+id, updateCustomerDTO)
   }
 
   @Delete(':id')

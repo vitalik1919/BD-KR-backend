@@ -21,6 +21,9 @@ export class GroupClass {
     @Column('time', {nullable: false})
     start_time : string
 
+    @Column('int', {nullable: false, default: 10})
+    space_left : number
+
     @ManyToOne(() => Trainer, trainer => trainer.groupClasses)
     trainer: Trainer;
     @OneToMany(() => Customer, customer => customer.groupClass)

@@ -11,7 +11,6 @@ export class GroupClassesController {
   create(@Body() createGroupClassDto: CreateGroupClassDto) {
     return this.groupClassesService.create(createGroupClassDto);
   }
-
   @Get()
   findAll() {
     return this.groupClassesService.findAll();

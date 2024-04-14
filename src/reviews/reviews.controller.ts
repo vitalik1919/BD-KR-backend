@@ -17,6 +17,15 @@ export class ReviewsController {
     return this.reviewsService.findAll();
   }
 
+  @Get('count')
+  getCount() {
+    return this.reviewsService.getCount()
+  }
+  @Get('group/:startIndex/:limit')
+  findGroups(@Param('startIndex') startIndex: string, @Param('limit') limit : string) {
+    return this.reviewsService.findGroups(+startIndex, +limit)
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.reviewsService.findOne(+id);

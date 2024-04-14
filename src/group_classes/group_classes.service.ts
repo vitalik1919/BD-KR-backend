@@ -13,7 +13,21 @@ export class GroupClassesService {
   ) {}
 
   async findAll(): Promise<GroupClass[]> {
-    return this.groupClassRepository.find();
+    return await this.groupClassRepository
+        .createQueryBuilder('group_class')
+        .leftJoinAndSelect('group_class.trainer', 'trainer')
+        .select([
+          'group_class.id AS groupClass_id',
+          'group_class.type AS groupClass_type',
+          'group_class.price AS groupClass_price',
+          'group_class.start_time AS groupClass_start_time',
+          'group_class.day AS groupClass_day',
+          'trainer.first_name AS trainer_first_name',
+          'trainer.last_name AS trainer_last_name',
+          'group_class.space_left AS groupClass_space_left'
+        ])
+        .where('group_class.space_left > 0')
+        .getRawMany();
   }
 
   async findOne(id: number): Promise<GroupClass | undefined> {
@@ -32,4 +46,5 @@ export class GroupClassesService {
   async remove(id: number): Promise<void> {
     await this.groupClassRepository.delete(id);
   }
+
 }

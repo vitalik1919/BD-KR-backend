@@ -16,6 +16,26 @@ export class ReviewsService {
     return this.reviewRepository.find();
   }
 
+  async findGroups(startIndex: number, limit: number) {
+
+    return this.reviewRepository.createQueryBuilder('review')
+        .leftJoin('review.customer', 'customer')
+        .select([
+          'review.id',
+          'review.rating',
+          'review.description',
+          'customer.first_name',
+          'customer.last_name'
+        ])
+        .where('review.id >= :startIndex', { startIndex })
+        .orderBy('review.id', 'ASC')
+        .limit(limit)
+        .getRawMany();
+  }
+
+  async getCount() {
+      return this.reviewRepository.count()
+  }
   async findOne(id: number): Promise<Review | undefined> {
     return this.reviewRepository.findOne({ where: { id: id } });
   }

@@ -30,8 +30,20 @@ export class CustomersService {
     if (!customer) {
       throw new Error(`Customer with id ${updateCustomerDTO.id} not found`);
     }
+    console.log(updateCustomerDTO.groupClass.id)
     customer.groupClass = updateCustomerDTO.groupClass;
     return this.customerRepository.save(customer);
+  }
+
+  async findCustomerClass(customerId: number) {
+
+    return await this.customerRepository
+        .createQueryBuilder('customer')
+        .innerJoin('customer.groupClass', 'groupClass')
+        .where('groupClass.id = customer.groupClassId')
+        .andWhere('customer.id = :customerId', {customerId})
+        .select('groupClass.type')
+        .getRawOne()
   }
 
   async update(id: number, updateCustomerDto: UpdateCustomerDto): Promise<Customer | undefined> {
