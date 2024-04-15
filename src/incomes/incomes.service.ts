@@ -1,8 +1,8 @@
 import {Inject, Injectable} from '@nestjs/common';
-import { Repository } from 'typeorm';
-import { Income } from './entities/income.entity';
-import { CreateIncomeDto } from './dto/create-income.dto';
-import { UpdateIncomeDto } from './dto/update-income.dto';
+import {Repository} from 'typeorm';
+import {Income} from './entities/income.entity';
+import {CreateIncomeDto} from './dto/create-income.dto';
+import {UpdateIncomeDto} from './dto/update-income.dto';
 
 @Injectable()
 export class IncomesService {
@@ -11,6 +11,13 @@ export class IncomesService {
       @Inject('INCOME_REPOSITORY')
       private incomeRepository: Repository<Income>,
   ) {}
+
+  async getMonthlyIncomeData() {
+
+    const queryResult = await this.incomeRepository.query(`SELECT getMonthlyIncomeData() AS result`)
+    const result = queryResult[0].result
+    return JSON.parse(result)
+  }
 
   async findAll(): Promise<Income[]> {
     return this.incomeRepository.find();

@@ -12,6 +12,10 @@ export class IncomesController {
     return this.incomesService.create(createIncomeDto);
   }
 
+  @Get('monthly')
+  getMonthlyIncomeData() {
+    return this.incomesService.getMonthlyIncomeData()
+  }
   @Get()
   findAll() {
     return this.incomesService.findAll();

@@ -10,7 +10,7 @@ export class Income {
     @Column('decimal', {nullable: false})
     sum : number
 
-    @Column('date', {nullable: false})
+    @Column('timestamp', {nullable: false, default: () => "CURRENT_TIMESTAMP"})
     i_date : string
 
     @ManyToOne(() => Category, category => category.expenses)
