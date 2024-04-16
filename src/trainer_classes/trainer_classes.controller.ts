@@ -28,6 +28,11 @@ export class TrainerClassesController {
     return this.trainerClassesService.findAllOfCustomer(+customerId)
   }
 
+  @Get('trainer/available/:id')
+  findAvailableOfTrainer(@Param('id') trainerId: string) {
+    return this.trainerClassesService.findAvailableOfTrainer(+trainerId)
+  }
+
   @Get('trainer/:id')
   async findAllOfTrainer(@Param('id') trainerId: string) {
     return this.trainerClassesService.findAllOfTrainer(+trainerId)
@@ -51,4 +56,5 @@ export class TrainerClassesController {
   remove(@Param('id') id: string) {
     return this.trainerClassesService.remove(+id);
   }
+
 }

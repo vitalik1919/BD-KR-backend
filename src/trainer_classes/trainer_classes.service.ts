@@ -64,6 +64,19 @@ export class TrainerClassesService {
         .andWhere('trainerClass.customerId is not null')
         .getRawMany();
   }
+    async findAvailableOfTrainer(trainerId: number): Promise<any[]> {
+        return this.trainerClassRepository
+            .createQueryBuilder('trainerClass')
+            .leftJoinAndSelect('trainerClass.trainer', 'trainer')
+            .select([
+                'trainerClass.id',
+                'trainer.first_name', 'trainer.last_name',
+                'trainerClass.price', 'trainerClass.start_time',
+                'trainerClass.end_time', 'trainerClass.weekdays'])
+            .where('trainerClass.trainer = :trainerId', { trainerId })
+            .andWhere('trainerClass.customerId is null')
+            .getRawMany();
+    }
 
   async addClassToCustomer(id : number, updateTrainerClassDTO : UpdateTrainerClassDto) {
 
