@@ -2,8 +2,8 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 export enum Role {
     CUSTOMER,
+    ADMIN,
     TRAINER,
-    ADMIN
 }
 @Entity({ name: 'users' })
 export class User {

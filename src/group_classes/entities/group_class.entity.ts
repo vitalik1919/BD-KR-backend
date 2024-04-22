@@ -2,6 +2,7 @@ import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typ
 import {Category} from "../../categories/entities/category.entity";
 import {Trainer} from "../../trainers/entities/trainer.entity";
 import {Customer} from "../../customers/entities/customer.entity";
+import {Transaction} from "../../transactions/entities/transaction.entity";
 
 @Entity({name: 'group_classes'})
 export class GroupClass {
@@ -10,7 +11,7 @@ export class GroupClass {
     id : number
 
     @Column('varchar', {nullable: false})
-    type : number
+    type : string
 
     @Column('decimal', {nullable: false})
     price : number
@@ -28,5 +29,6 @@ export class GroupClass {
     trainer: Trainer;
     @OneToMany(() => Customer, customer => customer.groupClass)
     customers: Customer[];
-
+    @OneToMany(() => Transaction, transaction => transaction.groupClass)
+    transactions : Transaction[];
 }

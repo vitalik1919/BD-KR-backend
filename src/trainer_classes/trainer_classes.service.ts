@@ -119,8 +119,10 @@ export class TrainerClassesService {
             query = query.andWhere('trainer_class.end_time <= :endTime', { endTime });
         }
 
+        console.log(chosenWeekdays)
         if (chosenWeekdays && chosenWeekdays.length > 0) {
-            const searchConditions = chosenWeekdays.map((day, index) => `JSON_SEARCH(trainer_class.weekdays->"$.weekdays", 'one', :day${index}) IS NOT NULL`).join(' OR ');
+            const searchConditions = chosenWeekdays.map((day, index) =>
+                `JSON_SEARCH(trainer_class.weekdays->"$.weekdays", 'one', :day${index}) IS NOT NULL`).join(' OR ');
             query = query.andWhere(`(${searchConditions})`, chosenWeekdays.reduce((params, day, index) => ({ ...params, [`day${index}`]: day }), {}));
         }
 

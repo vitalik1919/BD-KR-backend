@@ -14,12 +14,12 @@ import { TransactionsModule } from './transactions/transactions.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ExpensesModule } from './expenses/expenses.module';
 import { IncomesModule } from './incomes/incomes.module';
-
+import { DatasetModule } from './dataset/dataset.module';
 @Module({
   imports: [UsersModule, CustomersModule, DatabaseModule,
             AuthModule, TrainersModule, AdminsModule,
             TrainerClassesModule, GroupClassesModule, ReviewsModule,
             SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule,
-            CategoriesModule, ExpensesModule, IncomesModule]
+            CategoriesModule, ExpensesModule, IncomesModule, DatasetModule],
 })
 export class AppModule {}

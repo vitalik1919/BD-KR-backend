@@ -1,5 +1,6 @@
 import {Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"
 import {BoughtSubscription} from "../../bought_subscriptions/entities/bought_subscription.entity";
+import {Transaction} from "../../transactions/entities/transaction.entity";
 
 @Entity({name: 'subscriptions'})
 export class Subscription {
@@ -24,4 +25,6 @@ export class Subscription {
 
     @OneToMany(() => BoughtSubscription, boughtSubs => boughtSubs.subscription)
     boughtSubs: BoughtSubscription[]
+    @OneToMany(() => Transaction, transaction => transaction.subscription)
+    transactions : Transaction[];
 }

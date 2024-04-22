@@ -4,6 +4,7 @@ import {Review} from "../../reviews/entities/review.entity";
 import {TrainerClass} from "../../trainer_classes/entities/trainer_class.entity";
 import {BoughtSubscription} from "../../bought_subscriptions/entities/bought_subscription.entity";
 import {GroupClass} from "../../group_classes/entities/group_class.entity";
+import {Transaction} from "../../transactions/entities/transaction.entity";
 
 export enum Gender {
     MALE,
@@ -42,4 +43,6 @@ export class Customer {
     trainerClasses: TrainerClass[]
     @OneToMany(() => BoughtSubscription, boughtSubs => boughtSubs.customer)
     boughtSubs: BoughtSubscription[]
+    @OneToMany(() => Transaction, transaction => transaction.customer)
+    transactions : Transaction[];
 }

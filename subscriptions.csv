@@ -1,0 +1,1001 @@
+type,days,price,start_time,end_time
+towel service,360,190,8:21,13:21
+family,180,100,9:56,14:56
+bootcamp,180,100,10:01,15:01
+group training,360,190,11:12,16:12
+fitness,180,100,9:20,14:20
+exclusive classes,360,190,12:50,17:50
+workshops,30,25,14:09,19:09
+corporate,360,190,14:03,19:03
+gold,90,55,15:25,20:25
+silver,360,190,7:02,12:02
+senior discount,360,190,16:28,21:28
+recovery tools,90,55,8:44,13:44
+limited,90,55,8:26,13:26
+sauna ,360,190,15:27,20:27
+limited ,360,190,8:27,13:27
+couples,360,190,7:59,12:59
+goals session,360,190,7:53,12:53
+premium,30,25,14:40,19:40
+referral program,30,25,13:41,18:41
+equipment rental,30,25,15:51,20:51
+family discount,180,100,10:42,15:42
+free trial pass,180,100,14:15,19:15
+student program,90,55,14:05,19:05
+renewal discount,180,100,12:08,17:08
+one-on-one training,180,100,15:39,20:39
+fitness app ,360,190,9:33,14:33
+childcare services,360,190,12:04,17:04
+loyalty points,180,100,11:23,16:23
+loyalty program,30,25,11:28,16:28
+gold,90,55,13:12,18:12
+gold,30,25,7:30,12:30
+corporate discount,180,100,13:12,18:12
+virtual ,180,100,12:50,17:50
+gold,180,100,7:51,12:51
+group training,180,100,7:24,12:24
+swim ,30,25,7:01,12:01
+train package,360,190,8:58,13:58
+couples discount,90,55,7:41,12:41
+family discount,30,25,12:28,17:28
+new member,360,190,9:06,14:06
+fitness challenges,30,25,11:48,16:48
+platinum,360,190,10:01,15:01
+student,360,190,15:10,20:10
+health club ,360,190,14:32,19:32
+virtual,180,100,16:31,21:31
+fitness app ,180,100,10:46,15:46
+childcare services,90,55,7:31,12:31
+couples,180,100,8:16,13:16
+fitness ,90,55,13:56,18:56
+renewal discount,360,190,15:01,20:01
+nutrition workshops,360,190,10:27,15:27
+towel service,180,100,8:57,13:57
+goals session,180,100,9:26,14:26
+sauna ,180,100,14:13,19:13
+fitness challenges,360,190,9:10,14:10
+train package,360,190,10:44,15:44
+recovery package,90,55,7:14,12:14
+full of mind,90,55,16:55,21:55
+pay-as-you-go,180,100,15:34,20:34
+group training,30,25,9:26,14:26
+fitness challenges,180,100,10:54,15:54
+student,30,25,12:08,17:08
+corporate,90,55,16:53,21:53
+fitness app ,90,55,16:13,21:13
+day pass,30,25,16:07,21:07
+VIP,360,190,15:44,20:44
+limited ,360,190,13:12,18:12
+group,180,100,9:01,14:01
+virtual,30,25,10:36,15:36
+fitness,360,190,8:29,13:29
+locker rental,90,55,8:40,13:40
+workout plans,360,190,8:44,13:44
+train package,90,55,16:17,21:17
+loyalty program,180,100,7:09,12:09
+workout plans,360,190,14:41,19:41
+premium,30,25,15:51,20:51
+corporate,180,100,7:06,12:06
+renewal discount,180,100,14:23,19:23
+bootcamp ,180,100,10:04,15:04
+senior discount,30,25,15:58,20:58
+social ,360,190,15:55,20:55
+pay-as-you-go,180,100,16:39,21:39
+couples discount,180,100,15:58,20:58
+progress tracking,180,100,12:25,17:25
+online-only ,180,100,8:43,13:43
+welness pro,360,190,9:09,14:09
+crossfit ,90,55,14:29,19:29
+student discount,360,190,7:49,12:49
+recovery package,90,55,13:03,18:03
+family discount,180,100,14:09,19:09
+senior,360,190,7:14,12:14
+swim ,30,25,14:18,19:18
+limited ,360,190,16:44,21:44
+equipment rental,180,100,10:08,15:08
+locker rental,360,190,12:23,17:23
+student,30,25,16:40,21:40
+merchandise,90,55,15:38,20:38
+virtual ,90,55,7:58,12:58
+recovery tools,90,55,13:11,18:11
+day pass,360,190,13:25,18:25
+pilates ,180,100,14:18,19:18
+juice bar ,180,100,9:00,14:00
+childcare services,30,25,11:44,16:44
+fitness assessment,30,25,10:08,15:08
+nutrition coaching,30,25,15:55,20:55
+online-only ,30,25,11:11,16:11
+juice bar ,360,190,7:52,12:52
+early bird,360,190,12:55,17:55
+private studio rental,30,25,12:58,17:58
+senior discount,180,100,8:27,13:27
+smoothie ,360,190,16:33,21:33
+annual,30,25,11:54,16:54
+couples discount,360,190,10:28,15:28
+birthday discount,90,55,9:16,14:16
+free trial pass,180,100,13:13,18:13
+referral program,30,25,8:14,13:14
+social ,360,190,7:06,12:06
+new member,180,100,14:32,19:32
+welness pro,90,55,13:04,18:04
+gold,30,25,9:07,14:07
+group,30,25,14:56,19:56
+exclusive classes,360,190,8:53,13:53
+corporate,360,190,10:23,15:23
+fitness package,360,190,8:46,13:46
+locker rental,180,100,15:51,20:51
+specialty classes,90,55,11:01,16:01
+crossfit ,30,25,13:02,18:02
+early bird,90,55,11:29,16:29
+premium,90,55,11:11,16:11
+nutrition workshops,90,55,10:41,15:41
+wellness package,360,190,7:50,12:50
+pilates ,90,55,11:31,16:31
+wellness resources,30,25,11:59,16:59
+crossfit ,30,25,7:19,12:19
+fitness app ,30,25,11:03,16:03
+recovery tools,90,55,9:44,14:44
+workout plans,360,190,14:16,19:16
+nutrition coaching,360,190,8:30,13:30
+renewal discount,90,55,13:06,18:06
+progress tracking,30,25,10:22,15:22
+family,30,25,15:44,20:44
+fitness challenges,90,55,10:14,15:14
+loyalty points,30,25,10:45,15:45
+community ,90,55,16:27,21:27
+equipment rental,360,190,9:36,14:36
+off-peak,360,190,10:29,15:29
+social ,360,190,9:33,14:33
+fitness app ,90,55,14:30,19:30
+virtual ,180,100,14:10,19:10
+steam room ,90,55,16:50,21:50
+full of mind,90,55,16:31,21:31
+student discount,30,25,13:02,18:02
+VIP,30,25,11:20,16:20
+pilates ,90,55,14:12,19:12
+virtual training,180,100,16:36,21:36
+virtual ,90,55,14:30,19:30
+virtual ,180,100,10:25,15:25
+nutrition workshops,30,25,16:31,21:31
+childcare services,360,190,16:06,21:06
+online community,180,100,16:48,21:48
+monthly,360,190,11:51,16:51
+no contract ,90,55,7:18,12:18
+virtual ,90,55,10:30,15:30
+sauna ,90,55,7:56,12:56
+steam room,30,25,9:35,14:35
+progress tracking,30,25,10:36,15:36
+no contract ,360,190,14:02,19:02
+juice bar ,360,190,15:54,20:54
+free trial pass,30,25,8:30,13:30
+crossfit ,90,55,10:05,15:05
+weekend,180,100,7:46,12:46
+steam room ,360,190,15:39,20:39
+gold,90,55,16:43,21:43
+full of mind,90,55,9:22,14:22
+virtual ,90,55,16:27,21:27
+wellness package,30,25,11:44,16:44
+yoga ,360,190,11:24,16:24
+loyalty program,90,55,14:27,19:27
+gold,90,55,14:38,19:38
+premium,180,100,14:22,19:22
+corporate,30,25,12:58,17:58
+VIP,30,25,7:31,12:31
+progress tracking,180,100,9:06,14:06
+renewal discount,180,100,9:04,14:04
+group,90,55,15:59,20:59
+online community ,30,25,9:31,14:31
+steam room ,30,25,16:37,21:37
+online community ,90,55,12:27,17:27
+crossfit ,180,100,15:47,20:47
+nutrition coaching,90,55,9:59,14:59
+corporate,30,25,7:18,12:18
+group training,180,100,9:21,14:21
+premium,30,25,15:26,20:26
+crossfit ,30,25,15:19,20:19
+new member,90,55,12:49,17:49
+wellness package,360,190,15:56,20:56
+family,360,190,12:06,17:06
+wellness package,30,25,12:38,17:38
+no contract ,30,25,11:48,16:48
+limited ,180,100,14:03,19:03
+smoothie ,180,100,15:09,20:09
+loyalty program,30,25,11:33,16:33
+wellness package,360,190,13:11,18:11
+family discount,90,55,11:51,16:51
+online-only ,360,190,15:49,20:49
+community ,90,55,12:12,17:12
+renewal discount,30,25,8:32,13:32
+fitness class,180,100,15:40,20:40
+merchandise,90,55,9:27,14:27
+steam room,180,100,15:00,20:00
+member events,360,190,9:42,14:42
+crossfit ,30,25,13:46,18:46
+premium,90,55,13:51,18:51
+virtual training,180,100,11:46,16:46
+crossfit ,90,55,16:00,21:00
+monthly,180,100,8:56,13:56
+group,90,55,15:41,20:41
+renewal discount,90,55,12:02,17:02
+premium,90,55,9:48,14:48
+ workout plans,180,100,13:49,18:49
+nutrition coaching,180,100,15:45,20:45
+wellness package,90,55,10:46,15:46
+bootcamp sessions,30,25,12:01,17:01
+health club ,360,190,12:48,17:48
+senior,180,100,9:06,14:06
+gold,90,55,13:25,18:25
+family,180,100,8:09,13:09
+student,90,55,16:31,21:31
+loyalty program,360,190,13:42,18:42
+specialty classes,90,55,11:52,16:52
+sauna ,90,55,11:35,16:35
+bootcamp ,90,55,8:45,13:45
+childcare services,360,190,11:19,16:19
+welness pro,90,55,16:40,21:40
+social ,180,100,12:49,17:49
+equipment rental,180,100,14:45,19:45
+basic,180,100,13:44,18:44
+online community ,180,100,11:41,16:41
+fitness assessment,360,190,13:04,18:04
+fitness class,30,25,15:09,20:09
+trial,180,100,13:56,18:56
+student,30,25,15:07,20:07
+no contract ,90,55,12:38,17:38
+virtual ,30,25,16:06,21:06
+loyalty program,30,25,12:15,17:15
+referral program,180,100,16:08,21:08
+nutrition workshops,90,55,12:53,17:53
+yoga ,180,100,10:53,15:53
+basic,180,100,14:10,19:10
+fitness package,360,190,14:31,19:31
+birthday discount,30,25,13:50,18:50
+loyalty program,180,100,15:10,20:10
+yoga ,90,55,12:34,17:34
+family,180,100,10:34,15:34
+online community,90,55,8:05,13:05
+senior,360,190,11:57,16:57
+pay-as-you-go,90,55,14:21,19:21
+family discount,360,190,9:52,14:52
+wellness package,360,190,8:22,13:22
+student program,360,190,7:59,12:59
+nutrition coaching,360,190,12:22,17:22
+smoothie ,30,25,13:32,18:32
+workshop ,180,100,15:56,20:56
+spa ,180,100,14:47,19:47
+ workout plans,90,55,14:36,19:36
+juice bar ,360,190,8:01,13:01
+childcare services,360,190,7:08,12:08
+free trial pass,360,190,12:20,17:20
+renewal discount,30,25,10:27,15:27
+senior,30,25,15:44,20:44
+corporate,30,25,13:54,18:54
+family,360,190,9:03,14:03
+crossfit ,90,55,8:50,13:50
+group,90,55,7:46,12:46
+wellness retreat,30,25,7:54,12:54
+VIP,180,100,8:14,13:14
+community ,360,190,11:31,16:31
+nutrition workshops,30,25,16:36,21:36
+silver,180,100,16:10,21:10
+welness pro,180,100,12:47,17:47
+welness pro,180,100,14:29,19:29
+full of mind,180,100,9:24,14:24
+ workout plans,30,25,15:03,20:03
+locker rental,360,190,12:46,17:46
+exclusive classes,360,190,13:02,18:02
+bootcamp ,180,100,12:01,17:01
+corporate discount,360,190,13:23,18:23
+ workout plans,180,100,11:22,16:22
+swim ,180,100,10:54,15:54
+virtual training,30,25,11:59,16:59
+no contract ,360,190,7:31,12:31
+yoga ,180,100,9:47,14:47
+exclusive classes,360,190,11:32,16:32
+bootcamp ,30,25,10:13,15:13
+no contract ,360,190,10:27,15:27
+bootcamp sessions,30,25,10:31,15:31
+community ,360,190,9:51,14:51
+merchandise,30,25,8:52,13:52
+virtual ,180,100,13:11,18:11
+online community ,180,100,14:09,19:09
+weekend,360,190,9:31,14:31
+group training,90,55,10:50,15:50
+smoothie ,180,100,15:53,20:53
+progress tracking,360,190,7:16,12:16
+yoga ,30,25,15:05,20:05
+bootcamp ,360,190,12:13,17:13
+silver,360,190,15:37,20:37
+virtual training,90,55,7:47,12:47
+early bird,90,55,7:01,12:01
+premium,90,55,14:10,19:10
+fitness challenges,180,100,9:00,14:00
+pay-as-you-go,90,55,16:56,21:56
+student program,180,100,10:01,15:01
+one-on-one training,360,190,16:58,21:58
+free trial pass,30,25,12:50,17:50
+student discount,360,190,14:04,19:04
+senior discount,30,25,7:28,12:28
+holiday promotion,30,25,8:53,13:53
+towel service,360,190,9:24,14:24
+member events,90,55,12:28,17:28
+VIP,360,190,16:41,21:41
+goal setting session,180,100,15:13,20:13
+corporate discount,30,25,14:34,19:34
+juice bar ,30,25,10:41,15:41
+spa ,180,100,15:57,20:57
+friend sub,360,190,11:26,16:26
+gold,180,100,7:22,12:22
+basic,90,55,14:08,19:08
+fitness app ,30,25,14:27,19:27
+corporate discount,30,25,9:04,14:04
+virtual ,360,190,13:07,18:07
+VIP,90,55,12:45,17:45
+platinum,30,25,13:09,18:09
+student program,180,100,13:18,18:18
+member events,180,100,16:53,21:53
+trial,30,25,9:08,14:08
+virtual ,360,190,14:10,19:10
+train package,360,190,14:50,19:50
+monthly,30,25,12:45,17:45
+goal setting session,90,55,15:01,20:01
+juice bar ,90,55,7:05,12:05
+health club ,90,55,12:32,17:32
+nutrition coaching,30,25,15:13,20:13
+pilates ,90,55,12:50,17:50
+annual,360,190,12:10,17:10
+towel service,360,190,14:40,19:40
+locker rental,180,100,16:07,21:07
+pay-as-you-go,90,55,8:40,13:40
+platinum,180,100,13:10,18:10
+referral program,180,100,12:45,17:45
+recovery tools,30,25,8:18,13:18
+sauna ,360,190,8:41,13:41
+locker rental,180,100,11:14,16:14
+couples discount,180,100,10:47,15:47
+holiday promotion,360,190,11:53,16:53
+welness pro,360,190,9:25,14:25
+weekend,30,25,11:21,16:21
+pilates ,30,25,16:23,21:23
+student program,30,25,7:53,12:53
+early bird,360,190,16:29,21:29
+equipment rental,30,25,7:59,12:59
+weekend,180,100,14:22,19:22
+one-on-one training,90,55,7:41,12:41
+wellness package,180,100,16:13,21:13
+bootcamp sessions,360,190,10:01,15:01
+weekend,360,190,11:15,16:15
+one-on-one training,30,25,16:47,21:47
+ workout plans,30,25,10:32,15:32
+wellness package,90,55,8:56,13:56
+swim ,30,25,8:13,13:13
+fitness package,30,25,10:56,15:56
+fitness app ,180,100,7:23,12:23
+corporate,360,190,9:13,14:13
+online community ,180,100,14:12,19:12
+discounted ,30,25,10:18,15:18
+off-peak,30,25,11:58,16:58
+trial,180,100,11:16,16:16
+sauna ,90,55,13:36,18:36
+workshop ,180,100,12:53,17:53
+fitness challenges,360,190,10:03,15:03
+new member,90,55,9:49,14:49
+sauna ,90,55,12:12,17:12
+group training,180,100,13:09,18:09
+online-only ,360,190,8:58,13:58
+train package,360,190,11:05,16:05
+spa ,30,25,7:34,12:34
+online community ,360,190,10:37,15:37
+virtual training,180,100,16:13,21:13
+fitness package,30,25,12:23,17:23
+juice bar ,30,25,14:25,19:25
+pay-as-you-go,30,25,13:06,18:06
+recovery tools,90,55,16:50,21:50
+workout plans,90,55,9:56,14:56
+member events,30,25,7:25,12:25
+yoga ,30,25,11:33,16:33
+wellness retreat,360,190,12:17,17:17
+day pass,30,25,16:20,21:20
+nutrition coaching,180,100,7:34,12:34
+off-peak,180,100,14:51,19:51
+discounted ,90,55,12:30,17:30
+group training,30,25,9:03,14:03
+bootcamp sessions,180,100,15:01,20:01
+new member,90,55,7:59,12:59
+group,30,25,13:16,18:16
+weekend,180,100,9:43,14:43
+corporate discount,360,190,10:53,15:53
+senior discount,180,100,10:00,15:00
+student discount,180,100,13:16,18:16
+platinum,30,25,8:33,13:33
+sauna ,180,100,16:57,21:57
+virtual ,90,55,14:20,19:20
+nutrition workshops,180,100,8:07,13:07
+senior discount,180,100,10:43,15:43
+towel service,360,190,7:15,12:15
+platinum,90,55,9:45,14:45
+crossfit ,30,25,8:32,13:32
+workshop ,360,190,9:06,14:06
+silver,180,100,13:27,18:27
+smoothie ,180,100,15:40,20:40
+specialty classes,180,100,14:13,19:13
+silver,30,25,15:22,20:22
+senior discount,30,25,11:47,16:47
+crossfit ,360,190,15:06,20:06
+VIP,180,100,14:10,19:10
+recovery tools,360,190,8:10,13:10
+social ,30,25,11:29,16:29
+gold,180,100,16:45,21:45
+wellness retreat,90,55,11:04,16:04
+annual,30,25,7:01,12:01
+annual,90,55,16:48,21:48
+basic,30,25,14:48,19:48
+community ,30,25,9:38,14:38
+weekend,180,100,7:56,12:56
+smoothie ,90,55,14:49,19:49
+couples discount,30,25,11:58,16:58
+trial,30,25,14:24,19:24
+one-on-one training,360,190,15:38,20:38
+fitness challenges,30,25,13:09,18:09
+ workout plans,30,25,9:57,14:57
+wellness package,90,55,10:42,15:42
+spa ,360,190,13:42,18:42
+wellness resources,180,100,14:22,19:22
+recovery tools,180,100,8:23,13:23
+virtual ,90,55,7:30,12:30
+welness pro,90,55,13:29,18:29
+loyalty program,180,100,16:33,21:33
+trial,180,100,15:39,20:39
+off-peak,30,25,7:03,12:03
+ workout plans,180,100,14:18,19:18
+bootcamp sessions,90,55,8:03,13:03
+sauna ,360,190,16:26,21:26
+senior,360,190,15:19,20:19
+group training,90,55,11:59,16:59
+loyalty program,90,55,11:56,16:56
+new member,180,100,9:30,14:30
+friend promotion,30,25,7:39,12:39
+nutrition coaching,30,25,16:11,21:11
+annual,180,100,12:24,17:24
+specialty classes,360,190,14:06,19:06
+smoothie ,180,100,9:01,14:01
+discounted ,90,55,13:45,18:45
+senior,360,190,12:45,17:45
+new member,90,55,13:16,18:16
+friend sub,180,100,11:25,16:25
+loyalty program,360,190,16:02,21:02
+steam room ,90,55,8:52,13:52
+discounted ,30,25,8:50,13:50
+wellness retreat,90,55,7:02,12:02
+virtual ,30,25,11:22,16:22
+spa ,360,190,13:44,18:44
+crossfit ,360,190,14:00,19:00
+virtual ,30,25,7:40,12:40
+no contract ,360,190,14:01,19:01
+recovery package,360,190,13:33,18:33
+exclusive classes,90,55,10:47,15:47
+welness pro,180,100,9:33,14:33
+senior discount,90,55,16:15,21:15
+wellness resources,360,190,7:15,12:15
+family,360,190,11:15,16:15
+progress tracking,30,25,16:50,21:50
+annual,180,100,11:40,16:40
+monthly,30,25,15:18,20:18
+member events,30,25,10:37,15:37
+family,180,100,11:12,16:12
+student program,30,25,12:09,17:09
+wellness package,90,55,15:11,20:11
+student program,90,55,13:05,18:05
+pay-as-you-go,360,190,8:51,13:51
+workshop ,30,25,16:18,21:18
+virtual ,360,190,14:23,19:23
+couples discount,90,55,16:44,21:44
+equipment rental,180,100,9:05,14:05
+spa ,90,55,7:32,12:32
+student program,360,190,8:20,13:20
+annual,30,25,13:35,18:35
+exclusive classes,30,25,11:18,16:18
+discounted ,90,55,13:12,18:12
+online community ,180,100,8:03,13:03
+new member,180,100,15:31,20:31
+sauna ,180,100,8:18,13:18
+early bird,180,100,15:39,20:39
+smoothie ,360,190,9:17,14:17
+family discount,180,100,11:05,16:05
+premium,90,55,15:16,20:16
+nutrition workshops,360,190,12:51,17:51
+health club ,180,100,14:57,19:57
+bootcamp ,90,55,13:08,18:08
+welness pro,180,100,14:55,19:55
+recovery tools,30,25,12:45,17:45
+no contract ,180,100,11:38,16:38
+towel service,90,55,8:45,13:45
+sauna ,90,55,14:52,19:52
+loyalty points,180,100,9:20,14:20
+gold,30,25,10:28,15:28
+gold,30,25,14:11,19:11
+recovery tools,360,190,8:01,13:01
+wellness retreat,360,190,14:37,19:37
+wellness package,90,55,16:11,21:11
+friend sub,180,100,9:43,14:43
+crossfit ,180,100,9:05,14:05
+group,180,100,12:24,17:24
+fitness app ,180,100,9:03,14:03
+holiday promotion,30,25,14:15,19:15
+birthday discount,90,55,13:46,18:46
+student,30,25,9:42,14:42
+childcare services,360,190,12:13,17:13
+recovery tools,90,55,7:06,12:06
+pilates ,90,55,7:35,12:35
+corporate,360,190,12:49,17:49
+friend sub,360,190,13:42,18:42
+progress tracking,360,190,15:32,20:32
+senior discount,30,25,14:38,19:38
+bootcamp ,30,25,15:00,20:00
+couples discount,180,100,13:21,18:21
+unlimited ,90,55,15:25,20:25
+fitness package,90,55,14:09,19:09
+merchandise,360,190,13:36,18:36
+unlimited ,30,25,12:03,17:03
+welness pro,90,55,11:48,16:48
+holiday promotion,180,100,7:13,12:13
+member events,360,190,13:37,18:37
+friend sub,180,100,12:45,17:45
+swim ,30,25,12:20,17:20
+equipment rental,30,25,10:49,15:49
+childcare services,90,55,16:38,21:38
+loyalty points,360,190,14:59,19:59
+no contract ,90,55,9:51,14:51
+bootcamp ,90,55,9:21,14:21
+train package,30,25,12:30,17:30
+loyalty program,360,190,8:44,13:44
+crossfit ,180,100,9:45,14:45
+renewal discount,360,190,7:38,12:38
+smoothie ,30,25,13:26,18:26
+welness pro,30,25,9:26,14:26
+wellness package,180,100,10:06,15:06
+loyalty points,180,100,15:13,20:13
+bootcamp ,180,100,15:46,20:46
+online community ,180,100,9:12,14:12
+juice bar ,360,190,12:21,17:21
+ workout plans,360,190,14:47,19:47
+free trial pass,90,55,12:15,17:15
+merchandise,360,190,16:23,21:23
+yoga ,90,55,16:48,21:48
+nutrition coaching,180,100,14:41,19:41
+new member,360,190,10:07,15:07
+workshop ,360,190,9:22,14:22
+smoothie ,90,55,11:15,16:15
+senior discount,90,55,10:22,15:22
+spa ,360,190,16:56,21:56
+family discount,180,100,12:37,17:37
+train package,180,100,12:28,17:28
+senior discount,180,100,15:23,20:23
+wellness resources,90,55,14:17,19:17
+day pass,30,25,8:38,13:38
+online-only ,180,100,12:57,17:57
+fitness app ,90,55,9:41,14:41
+crossfit ,360,190,11:28,16:28
+VIP,360,190,7:52,12:52
+swim ,360,190,10:31,15:31
+basic,90,55,10:10,15:10
+loyalty points,180,100,8:09,13:09
+yoga ,30,25,16:50,21:50
+senior,360,190,15:14,20:14
+platinum,90,55,14:26,19:26
+new member,180,100,8:45,13:45
+no contract ,180,100,8:28,13:28
+student discount,90,55,15:46,20:46
+no contract ,90,55,7:49,12:49
+virtual training,90,55,12:41,17:41
+exclusive classes,90,55,9:19,14:19
+nutrition workshops,180,100,14:34,19:34
+early bird,180,100,14:32,19:32
+one-on-one training,360,190,10:15,15:15
+towel service,90,55,12:32,17:32
+discounted ,90,55,10:24,15:24
+smoothie ,360,190,11:40,16:40
+online-only ,360,190,9:14,14:14
+bootcamp sessions,180,100,15:07,20:07
+bootcamp sessions,90,55,15:21,20:21
+premium,360,190,7:33,12:33
+group,30,25,8:46,13:46
+one-on-one training,90,55,14:16,19:16
+steam room ,90,55,13:31,18:31
+welness pro,90,55,9:18,14:18
+online community ,30,25,16:10,21:10
+holiday promotion,360,190,9:40,14:40
+corporate,180,100,9:04,14:04
+holiday promotion,30,25,16:24,21:24
+fitness challenges,180,100,15:58,20:58
+pay-as-you-go,180,100,12:10,17:10
+family,90,55,7:01,12:01
+family discount,360,190,10:34,15:34
+goal setting session,30,25,16:45,21:45
+wellness resources,90,55,14:28,19:28
+friend sub,90,55,7:50,12:50
+equipment rental,180,100,13:07,18:07
+wellness retreat,360,190,16:11,21:11
+couples discount,180,100,15:48,20:48
+recovery tools,360,190,14:25,19:25
+friend sub,90,55,12:07,17:07
+virtual training,30,25,8:40,13:40
+day pass,180,100,9:36,14:36
+trial,90,55,14:05,19:05
+bootcamp ,90,55,9:50,14:50
+off-peak,180,100,14:36,19:36
+fitness app ,180,100,10:27,15:27
+couples,180,100,13:03,18:03
+senior discount,90,55,10:02,15:02
+wellness resources,90,55,7:51,12:51
+basic,90,55,12:49,17:49
+bootcamp sessions,90,55,13:00,18:00
+swim ,360,190,9:06,14:06
+student program,180,100,9:05,14:05
+virtual training,90,55,13:19,18:19
+ workout plans,30,25,7:00,12:00
+annual,90,55,8:38,13:38
+smoothie ,180,100,8:06,13:06
+corporate discount,90,55,13:46,18:46
+smoothie ,360,190,14:33,19:33
+silver,30,25,10:17,15:17
+exclusive classes,360,190,8:17,13:17
+recovery tools,30,25,11:56,16:56
+towel service,180,100,9:51,14:51
+fitness app ,90,55,13:23,18:23
+loyalty program,30,25,16:16,21:16
+student discount,90,55,13:02,18:02
+basic,30,25,15:14,20:14
+wellness resources,180,100,10:00,15:00
+community ,30,25,12:58,17:58
+premium,360,190,8:28,13:28
+one-on-one training,360,190,11:33,16:33
+specialty classes,360,190,14:38,19:38
+wellness package,90,55,7:34,12:34
+senior discount,360,190,14:35,19:35
+weekend,180,100,14:13,19:13
+childcare services,30,25,13:21,18:21
+ workout plans,90,55,12:56,17:56
+full of mind,180,100,10:11,15:11
+ workout plans,90,55,13:32,18:32
+corporate,180,100,7:16,12:16
+wellness package,90,55,12:25,17:25
+fitness app ,180,100,13:44,18:44
+online-only ,90,55,8:14,13:14
+smoothie ,360,190,16:22,21:22
+swim ,180,100,14:20,19:20
+student,90,55,16:55,21:55
+holiday promotion,30,25,7:47,12:47
+crossfit ,30,25,15:15,20:15
+nutrition workshops,90,55,7:17,12:17
+social ,30,25,7:35,12:35
+student,90,55,8:58,13:58
+day pass,30,25,12:22,17:22
+gold,30,25,10:51,15:51
+juice bar ,90,55,9:45,14:45
+birthday discount,90,55,7:42,12:42
+sauna ,360,190,11:53,16:53
+couples,90,55,14:03,19:03
+member events,360,190,16:17,21:17
+swim ,360,190,13:31,18:31
+health club ,360,190,11:38,16:38
+loyalty points,360,190,7:09,12:09
+exclusive classes,360,190,14:59,19:59
+pilates ,180,100,14:13,19:13
+renewal discount,360,190,13:32,18:32
+family,30,25,10:07,15:07
+member events,360,190,15:34,20:34
+discounted ,90,55,8:10,13:10
+yoga ,30,25,15:46,20:46
+fitness app ,90,55,8:05,13:05
+equipment rental,30,25,10:03,15:03
+fitness challenges,90,55,13:39,18:39
+basic,30,25,15:08,20:08
+nutrition coaching,360,190,15:35,20:35
+member events,360,190,13:14,18:14
+referral program,30,25,14:53,19:53
+wellness resources,360,190,11:26,16:26
+group training,30,25,9:35,14:35
+unlimited ,30,25,13:14,18:14
+crossfit ,180,100,7:43,12:43
+silver,30,25,11:47,16:47
+referral program,30,25,16:02,21:02
+welness pro,30,25,8:19,13:19
+member events,180,100,7:43,12:43
+one-on-one training,360,190,12:29,17:29
+virtual training,360,190,8:13,13:13
+yoga ,360,190,10:26,15:26
+merchandise,90,55,9:45,14:45
+merchandise,360,190,8:45,13:45
+health club ,360,190,14:38,19:38
+welness pro,180,100,14:46,19:46
+health club ,90,55,14:30,19:30
+limited ,30,25,11:40,16:40
+virtual training,30,25,8:34,13:34
+student,360,190,12:29,17:29
+one-on-one training,30,25,7:45,12:45
+discounted ,30,25,8:34,13:34
+specialty classes,360,190,10:47,15:47
+corporate discount,90,55,14:18,19:18
+VIP,90,55,9:28,14:28
+online-only ,90,55,13:17,18:17
+virtual training,180,100,12:47,17:47
+welness pro,90,55,14:54,19:54
+day pass,30,25,11:10,16:10
+student program,30,25,15:43,20:43
+nutrition coaching,30,25,15:24,20:24
+yoga ,30,25,7:20,12:20
+community ,360,190,12:50,17:50
+friend sub,360,190,12:55,17:55
+towel service,180,100,12:32,17:32
+health club ,180,100,11:07,16:07
+loyalty points,90,55,11:13,16:13
+loyalty program,360,190,11:29,16:29
+holiday promotion,90,55,13:24,18:24
+group training,360,190,10:18,15:18
+online community ,360,190,9:18,14:18
+nutrition coaching,90,55,10:32,15:32
+platinum,360,190,13:21,18:21
+couples discount,90,55,15:38,20:38
+exclusive classes,90,55,16:51,21:51
+family discount,90,55,10:02,15:02
+crossfit ,360,190,16:04,21:04
+silver,180,100,8:02,13:02
+sauna ,180,100,14:01,19:01
+silver,30,25,10:20,15:20
+fitness package,360,190,10:58,15:58
+premium,30,25,10:14,15:14
+premium,90,55,15:33,20:33
+swim ,180,100,8:24,13:24
+corporate discount,90,55,14:53,19:53
+discounted ,180,100,16:42,21:42
+day pass,30,25,11:02,16:02
+gold,360,190,8:24,13:24
+discounted ,90,55,16:56,21:56
+loyalty program,180,100,9:15,14:15
+steam room ,30,25,9:29,14:29
+pay-as-you-go,360,190,7:53,12:53
+couples,90,55,10:06,15:06
+group training,90,55,14:00,19:00
+childcare services,180,100,16:11,21:11
+birthday discount,360,190,16:14,21:14
+recovery tools,30,25,8:24,13:24
+steam room ,360,190,11:31,16:31
+virtual training,360,190,16:49,21:49
+health club ,90,55,9:23,14:23
+wellness retreat,30,25,7:45,12:45
+platinum,360,190,10:40,15:40
+social ,30,25,15:57,20:57
+community ,360,190,7:21,12:21
+premium,30,25,8:48,13:48
+day pass,90,55,7:58,12:58
+goal setting session,30,25,11:21,16:21
+annual,360,190,16:20,21:20
+progress tracking,360,190,11:44,16:44
+bootcamp sessions,180,100,7:12,12:12
+juice bar ,180,100,11:15,16:15
+train package,360,190,11:52,16:52
+social ,90,55,14:30,19:30
+premium,90,55,16:11,21:11
+birthday discount,30,25,12:10,17:10
+swim ,360,190,15:11,20:11
+corporate discount,360,190,12:41,17:41
+member events,180,100,11:36,16:36
+pilates ,90,55,13:04,18:04
+birthday discount,180,100,14:11,19:11
+VIP,30,25,12:45,17:45
+crossfit ,360,190,16:43,21:43
+community ,360,190,10:30,15:30
+private studio rental,30,25,14:58,19:58
+day pass,90,55,16:46,21:46
+day pass,360,190,16:39,21:39
+monthly,30,25,13:39,18:39
+equipment rental,360,190,10:45,15:45
+merchandise,360,190,7:37,12:37
+smoothie ,360,190,7:12,12:12
+friend sub,90,55,14:54,19:54
+smoothie ,360,190,13:27,18:27
+birthday discount,360,190,8:59,13:59
+equipment rental,30,25,14:19,19:19
+nutrition coaching,360,190,7:26,12:26
+childcare services,30,25,15:17,20:17
+one-on-one training,180,100,14:40,19:40
+workshop ,30,25,11:05,16:05
+virtual training,90,55,7:01,12:01
+premium,90,55,16:57,21:57
+full of mind,30,25,16:14,21:14
+recovery tools,360,190,9:35,14:35
+new member,360,190,12:42,17:42
+friend sub,180,100,9:55,14:55
+merchandise,180,100,7:39,12:39
+silver,30,25,13:21,18:21
+platinum,90,55,13:40,18:40
+nutrition workshops,90,55,13:34,18:34
+member events,360,190,15:11,20:11
+senior discount,180,100,11:34,16:34
+health club ,90,55,10:55,15:55
+welness pro,360,190,10:31,15:31
+wellness resources,90,55,13:29,18:29
+renewal discount,90,55,13:54,18:54
+online community ,30,25,9:45,14:45
+nutrition coaching,90,55,11:54,16:54
+train package,30,25,16:08,21:08
+wellness package,180,100,15:33,20:33
+merchandise,30,25,7:36,12:36
+fitness package,180,100,13:21,18:21
+full of mind,30,25,10:16,15:16
+yoga ,90,55,8:49,13:49
+member events,180,100,9:45,14:45
+train package,360,190,15:59,20:59
+family discount,30,25,8:07,13:07
+welness pro,30,25,10:38,15:38
+trial,180,100,9:59,14:59
+bootcamp ,180,100,7:51,12:51
+weekend,180,100,11:09,16:09
+couples,90,55,9:03,14:03
+platinum,360,190,9:36,14:36
+discounted ,360,190,12:36,17:36
+private studio rental,360,190,7:26,12:26
+yoga ,360,190,12:51,17:51
+day pass,360,190,8:50,13:50
+social ,360,190,9:57,14:57
+health club ,360,190,14:39,19:39
+student discount,360,190,14:43,19:43
+fitness challenges,180,100,11:34,16:34
+progress tracking,360,190,15:31,20:31
+smoothie ,180,100,13:13,18:13
+silver,90,55,7:40,12:40
+crossfit ,180,100,13:54,18:54
+senior,30,25,13:15,18:15
+steam room ,180,100,16:34,21:34
+senior discount,30,25,13:22,18:22
+sauna ,30,25,9:08,14:08
+platinum,90,55,16:15,21:15
+basic,30,25,14:08,19:08
+senior discount,360,190,9:17,14:17
+recovery tools,30,25,11:50,16:50
+loyalty points,90,55,8:30,13:30
+private studio rental,180,100,11:09,16:09
+trial,360,190,12:24,17:24
+premium,360,190,12:17,17:17
+VIP,180,100,9:59,14:59
+senior,180,100,7:11,12:11
+exclusive classes,30,25,9:56,14:56
+fitness challenges,90,55,7:00,12:00
+loyalty points,90,55,15:55,20:55
+nutrition coaching,30,25,14:49,19:49
+senior,360,190,14:56,19:56
+progress tracking,30,25,15:19,20:19
+annual,180,100,14:15,19:15
+community ,360,190,8:00,13:00
+train package,180,100,7:58,12:58
+locker rental,360,190,14:42,19:42
+couples,360,190,14:09,19:09
+merchandise,30,25,9:50,14:50
+bootcamp ,90,55,10:35,15:35
+basic,90,55,9:52,14:52
+social ,360,190,9:40,14:40
+recovery tools,90,55,15:55,20:55
+corporate,90,55,9:29,14:29
+fitness challenges,360,190,11:09,16:09
+full of mind,360,190,9:29,14:29
+community ,180,100,9:56,14:56
+early bird,360,190,8:42,13:42
+wellness package,180,100,11:32,16:32
+welness pro,90,55,9:22,14:22
+platinum,90,55,11:31,16:31
+holiday promotion,180,100,11:21,16:21
+platinum,360,190,16:45,21:45
+weekend,90,55,9:39,14:39
+loyalty program,360,190,7:03,12:03
+virtual ,30,25,15:49,20:49
+pay-as-you-go,90,55,14:21,19:21
+ workout plans,180,100,10:42,15:42
+free trial pass,90,55,10:28,15:28
+free trial pass,90,55,15:47,20:47
+new member,30,25,12:45,17:45
+group,30,25,11:07,16:07
+couples discount,180,100,11:07,16:07
+fitness assessment,30,25,16:31,21:31
+corporate discount,360,190,16:35,21:35
+fitness challenges,30,25,14:50,19:50
+corporate discount,360,190,13:33,18:33
+monthly,30,25,11:08,16:08
+sauna ,90,55,8:59,13:59
+premium,180,100,13:40,18:40
+towel service,360,190,9:46,14:46
+day pass,180,100,14:16,19:16
+full of mind,90,55,7:37,12:37
+student,30,25,16:12,21:12
+goal setting session,90,55,14:25,19:25
+recovery package,90,55,7:57,12:57
+online community ,180,100,11:19,16:19
+corporate discount,90,55,7:27,12:27
+corporate,360,190,7:16,12:16
+student program,90,55,14:48,19:48
+wellness resources,360,190,16:31,21:31
+equipment rental,360,190,7:02,12:02
+online-only ,30,25,15:36,20:36
+smoothie ,30,25,7:37,12:37
+yoga ,30,25,14:27,19:27
+health club ,360,190,16:23,21:23
+weekend,360,190,11:32,16:32
+wellness resources,90,55,8:52,13:52
+limited ,180,100,14:57,19:57
+progress tracking,30,25,7:06,12:06
+group training,360,190,16:03,21:03
+loyalty points,180,100,12:37,17:37
+train package,90,55,15:43,20:43
+swim ,30,25,12:05,17:05
+bootcamp sessions,360,190,11:08,16:08
+limited ,30,25,8:17,13:17
+workshop ,180,100,11:32,16:32
+recovery package,180,100,15:40,20:40
+free trial pass,30,25,11:39,16:39
+wellness package,360,190,13:01,18:01
+online-only ,180,100,14:58,19:58
+silver,360,190,13:06,18:06
+group training,90,55,9:22,14:22
+fitness assessment,360,190,14:01,19:01
+steam room ,360,190,10:06,15:06
+wellness package,90,55,12:58,17:58
+trial,90,55,14:34,19:34
+bootcamp ,360,190,9:15,14:15
+community ,180,100,8:17,13:17
+fitness assessment,180,100,10:50,15:50
+nutrition workshops,90,55,11:12,16:12
+couples,30,25,16:04,21:04
+fitness package,360,190,8:04,13:04
+weekend,180,100,7:28,12:28
+smoothie ,90,55,8:42,13:42
+community ,90,55,14:06,19:06
+senior,30,25,15:20,20:20
+childcare services,90,55,8:11,13:11
+specialty classes,30,25,8:21,13:21
+yoga ,90,55,12:37,17:37
+family discount,90,55,14:25,19:25
+new member,30,25,8:44,13:44
+renewal discount,30,25,13:09,18:09
+smoothie ,360,190,15:14,20:14
+specialty classes,360,190,9:34,14:34
+discounted ,180,100,12:02,17:02
+towel service,360,190,9:49,14:49
+recovery tools,30,25,11:41,16:41
+new member,90,55,9:20,14:20
+recovery tools,180,100,15:31,20:31
+one-on-one training,90,55,16:45,21:45
+online community ,180,100,7:48,12:48
+basic,90,55,8:03,13:03
+student program,180,100,9:46,14:46
+discounted ,180,100,13:07,18:07
+couples,30,25,8:21,13:21
+unlimited ,30,25,15:27,20:27
+birthday discount,180,100,9:42,14:42
+nutrition workshops,180,100,11:00,16:00
+renewal discount,360,190,15:26,20:26
+private studio rental,180,100,12:21,17:21
+group training,30,25,7:00,12:00
+swim ,180,100,14:52,19:52
+community ,90,55,16:39,21:39
+workshop ,90,55,14:56,19:56
+ workout plans,180,100,8:46,13:46
+workshop ,360,190,8:16,13:16
+welness pro,90,55,14:48,19:48
+basic,360,190,8:34,13:34
+virtual training,90,55,8:49,13:49
+basic,90,55,7:03,12:03
+unlimited ,90,55,10:09,15:09
+juice bar ,360,190,10:10,15:10
+exclusive classes,30,25,8:19,13:19
+senior,30,25,9:35,14:35
+spa ,90,55,9:41,14:41
+pilates ,30,25,15:30,20:30
+group training,30,25,13:03,18:03
+group training,360,190,7:23,12:23
+community ,90,55,13:32,18:32
+new member,90,55,14:48,19:48
+community ,30,25,9:26,14:26
+wellness resources,90,55,7:25,12:25
+birthday discount,360,190,12:05,17:05
+trial,360,190,13:35,18:35
+corporate discount,30,25,16:48,21:48
