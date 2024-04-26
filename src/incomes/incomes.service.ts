@@ -12,9 +12,9 @@ export class IncomesService {
       private incomeRepository: Repository<Income>,
   ) {}
 
-  async getMonthlyIncomeData() {
+  async getMonthlyIncomeData(months : number) {
 
-    const queryResult = await this.incomeRepository.query(`SELECT getMonthlyIncomeData() AS result`)
+    const queryResult = await this.incomeRepository.query(`SELECT getMonthlyIncomeData(${months}) AS result`)
     const result = queryResult[0].result
     return JSON.parse(result)
   }

@@ -33,8 +33,8 @@ export class ExpensesService {
     await this.expenseRepository.delete(id);
   }
 
-  async getMonthlyExpenseData() {
-    const queryResult = await this.expenseRepository.query(`SELECT getMonthlyExpenseData() AS result`)
+  async getMonthlyExpenseData(months : number) {
+    const queryResult = await this.expenseRepository.query(`SELECT getMonthlyExpenseData(${months}) AS result`)
     const result = queryResult[0].result
     return JSON.parse(result)
   }

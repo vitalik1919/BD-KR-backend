@@ -12,9 +12,9 @@ export class IncomesController {
     return this.incomesService.create(createIncomeDto);
   }
 
-  @Get('monthly')
-  getMonthlyIncomeData() {
-    return this.incomesService.getMonthlyIncomeData()
+  @Get('monthly/:months')
+  getMonthlyIncomeData(@Param('months') months: string) {
+    return this.incomesService.getMonthlyIncomeData(+months)
   }
   @Get()
   findAll() {

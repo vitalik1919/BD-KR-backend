@@ -12,9 +12,9 @@ export class ExpensesController {
     return this.expensesService.create(createExpenseDto);
   }
 
-  @Get('monthly')
-  getMonthlyIncomeData() {
-    return this.expensesService.getMonthlyExpenseData()
+  @Get('monthly/:months')
+  getMonthlyExpenseData(@Param('months') months: string) {
+    return this.expensesService.getMonthlyExpenseData(+months)
   }
   @Get()
   findAll() {

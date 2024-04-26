@@ -3,7 +3,6 @@ import {Repository} from 'typeorm';
 import {BoughtSubscription} from './entities/bought_subscription.entity';
 import {CreateBoughtSubscriptionDto} from './dto/create-bought_subscription.dto';
 import {UpdateBoughtSubscriptionDto} from './dto/update-bought_subscription.dto';
-import {CreateCustomerDto} from "../customers/dto/create-customer.dto";
 
 @Injectable()
 export class BoughtSubscriptionsService {
@@ -24,8 +23,13 @@ export class BoughtSubscriptionsService {
     if(!existingSubscription) {
       return this.boughtSubscriptionRepository.save(createBoughtSubDTO)
     }
-
   }
+
+  async getSubscriptionJSON() {
+    const queryResult = await this.boughtSubscriptionRepository.query(`SELECT getSubscriptionsJSON() AS result`)
+    return queryResult[0].result
+  }
+
   async findOne(id: number): Promise<BoughtSubscription | undefined> {
     return this.boughtSubscriptionRepository.findOne({ where: { id: id } });
   }
