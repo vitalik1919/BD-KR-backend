@@ -12,6 +12,8 @@ export class SubscriptionsService {
   constructor(
       @Inject('SUBSCRIPTION_REPOSITORY')
       private subscriptionRepository: Repository<Subscription>,
+      @Inject('BOUGHT_SUBSCRIPTION_REPOSITORY')
+      private boughtSubscriptionRepository: Repository<BoughtSubscription>,
   ) {}
 
   async findAll(): Promise<Subscription[]> {
@@ -45,7 +47,21 @@ export class SubscriptionsService {
   }
 
   async remove(id: number): Promise<void> {
-    await this.subscriptionRepository.delete(id);
+    const sub = await this.subscriptionRepository.findOne({where: {id: id}})
+    const boughtSubs = await this.boughtSubscriptionRepository.find(
+        {
+          where:
+          {
+            subscription : sub,
+            is_active: true
+          }
+        }
+    )
+    if(boughtSubs.length === 0)
+      await this.subscriptionRepository.delete(id);
+    else {
+      throw new Error('Cannot delete a subscription.\nIt is active for some customers.')
+    }
   }
 
   async filterSubscriptions(filterDTO: SubscriptionsFilterDTO) {

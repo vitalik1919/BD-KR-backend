@@ -1,8 +1,8 @@
 import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm"
-import {Category} from "../../categories/entities/category.entity";
 import {Trainer} from "../../trainers/entities/trainer.entity";
 import {Customer} from "../../customers/entities/customer.entity";
 import {Transaction} from "../../transactions/entities/transaction.entity";
+import {Protocol} from "../../protocols/entities/protocol.entity";
 
 @Entity({name: 'group_classes'})
 export class GroupClass {
@@ -31,4 +31,6 @@ export class GroupClass {
     customers: Customer[];
     @OneToMany(() => Transaction, transaction => transaction.groupClass)
     transactions : Transaction[];
+    @OneToMany(() => Protocol, protocol => protocol.groupClass)
+    protocols : Protocol[];
 }

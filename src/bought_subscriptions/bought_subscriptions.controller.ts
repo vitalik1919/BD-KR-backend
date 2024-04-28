@@ -18,6 +18,11 @@ export class BoughtSubscriptionsController {
     return this.boughtSubscriptionsService.purchaseSubscription(createBoughtSubDTO)
   }
 
+  @Get('monthly')
+  getSubscriptionsBoughtData() {
+    return this.boughtSubscriptionsService.getSubscriptionsBoughtData()
+  }
+
   @Get('json')
   getSubscriptionsJSON() {
     return this.boughtSubscriptionsService.getSubscriptionJSON()

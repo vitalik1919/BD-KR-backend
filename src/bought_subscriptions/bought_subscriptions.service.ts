@@ -46,4 +46,10 @@ export class BoughtSubscriptionsService {
   async remove(id: number): Promise<void> {
     await this.boughtSubscriptionRepository.delete(id);
   }
+
+  async getSubscriptionsBoughtData() {
+    const queryResult = await this.boughtSubscriptionRepository.query(`SELECT getMonthlySubscriptionData() AS result`)
+    const result = queryResult[0].result
+    return JSON.parse(result)
+  }
 }

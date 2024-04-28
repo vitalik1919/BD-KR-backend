@@ -12,6 +12,7 @@ import {Category} from "../categories/entities/category.entity";
 import {Review} from "../reviews/entities/review.entity";
 import {Expense} from "../expenses/entities/expense.entity";
 import {Income} from "../incomes/entities/income.entity";
+import {Protocol} from "../protocols/entities/protocol.entity";
 
 export const databaseProviders = [
     {
@@ -27,7 +28,7 @@ export const databaseProviders = [
                 entities: [
                     User, Customer, Admin, Trainer, Subscription,
                     BoughtSubscription, TrainerClass, GroupClass,
-                    Transaction, Review, Category, Expense, Income
+                    Transaction, Review, Category, Expense, Income, Protocol
                 ],
                 synchronize: true,
             });

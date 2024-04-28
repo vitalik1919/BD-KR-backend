@@ -2,6 +2,7 @@ import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typ
 import {Customer} from "../../customers/entities/customer.entity";
 import {Trainer} from "../../trainers/entities/trainer.entity";
 import {Transaction} from "../../transactions/entities/transaction.entity";
+import {Protocol} from "../../protocols/entities/protocol.entity";
 
 @Entity({name: 'trainer_classes'})
 export class TrainerClass {
@@ -28,4 +29,6 @@ export class TrainerClass {
 
     @OneToMany(() => Transaction, transaction => transaction.trainerClass)
     transactions : Transaction[];
+    @OneToMany(() => Protocol, protocol => protocol.trainerClass)
+    protocols : Protocol[];
 }

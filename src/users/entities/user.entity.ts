@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
+import {Protocol} from "../../protocols/entities/protocol.entity";
 
 export enum Role {
     CUSTOMER,
@@ -19,4 +20,7 @@ export class User {
 
     @Column('int', {nullable: false})
     role : Role
+
+    @OneToMany(() => Protocol, protocol => protocol.user)
+    protocols : Protocol[];
 }
