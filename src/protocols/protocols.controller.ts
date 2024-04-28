@@ -5,4 +5,8 @@ import { ProtocolsService } from './protocols.service';
 export class ProtocolsController {
   constructor(private readonly protocolsService: ProtocolsService) {}
 
+  @Get(':hours')
+  findCustomerSub(@Param('hours') time : string) {
+    return this.protocolsService.getProtocolData(+time)
+  }
 }

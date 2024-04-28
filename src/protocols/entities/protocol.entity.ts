@@ -16,15 +16,15 @@ export class Protocol {
     @Column('timestamp', {nullable: false, default: () => "CURRENT_TIMESTAMP"})
     date : string
 
-    @ManyToOne(() => User, user => user.protocols)
+    @ManyToOne(() => User, user => user.protocols, {eager : true})
     user: User
 
-    @ManyToOne(() => Subscription, sub => sub.protocols)
+    @ManyToOne(() => Subscription, sub => sub.protocols, {eager : true})
     subscription: Subscription
 
-    @ManyToOne(() => TrainerClass, tclass => tclass.protocols)
+    @ManyToOne(() => TrainerClass, tclass => tclass.protocols, {eager : true})
     trainerClass: TrainerClass
 
-    @ManyToOne(() => GroupClass, gclass => gclass.protocols)
+    @ManyToOne(() => GroupClass, gclass => gclass.protocols, {eager : true})
     groupClass: GroupClass
 }
