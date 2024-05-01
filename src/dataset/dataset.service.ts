@@ -53,7 +53,7 @@ export class DatasetService {
     async generateData() {
 
 
-        const userCount = 1000
+        const userCount = 5000
         for (let i = 0; i < userCount; ++i) {
             await this.usersRepository.save({
                 username: faker.internet.userName(),
@@ -74,6 +74,7 @@ export class DatasetService {
             })
         }
 
+
         await this.readReviewsData()
         await this.readSubscriptionsData()
         await this.readCategoriesData()
@@ -86,9 +87,9 @@ export class DatasetService {
                 id: admins[i].id,
                 first_name: fname,
                 last_name: lname,
-                email: faker.internet.email(fname, lname),
+                email: faker.internet.email({ firstName: fname, lastName: lname }),
                 wage: faker.number.int({min: 3000, max: 5500}),
-                reg_date: faker.date.past(5).toISOString().substring(0, 10)
+                reg_date: faker.date.past({ years: 5}).toISOString().substring(0, 10)
             })
         }
 
@@ -107,26 +108,11 @@ export class DatasetService {
             })
         }
 
+        await this.readGroupClassesData()
 
-        const gcTypes = ['Swimming', 'Crossfit', 'Boxing', 'Karate', 'Water Polo', 'Stretching', 'Pilates',
-            'Zumba', 'Stretching', 'Volleyball', 'Football', 'Basketball', 'Tennis', 'Table Tennis', 'Marathon']
-        const days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
-        const groupClassesCount = 100
+        const trainerClassesCount = 5000
         const allTrainers = await this.trainersRepository.find()
-        for(let i = 0; i < groupClassesCount; ++i) {
-
-            await this.groupClassesRepository.save({
-                type: gcTypes[faker.number.int({min: 0, max: gcTypes.length - 1})],
-                price: faker.number.int({min: 15, max: 45}),
-                day: days[faker.number.int({min: 0, max: days.length - 1})],
-                start_time: faker.date.between({from: '2024-04-22T10:00:00', to: '2024-04-22T21:00:00'}).toISOString().substring(11, 16),
-                space_left: faker.number.int({min: 0, max: 15}),
-                trainer: allTrainers[faker.number.int({min: 0, max: allTrainers.length - 1})]
-            })
-        }
-
-
-        const trainerClassesCount = 100
+        const days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
         for(let i = 0; i < trainerClassesCount; ++i) {
             let weekdaysMid : string[] = []
             const daysNum = faker.number.int({min: 1, max: 4})
@@ -154,7 +140,7 @@ export class DatasetService {
         }
 
         const allCustomers = await this.customersRepository.find()
-        const transactionsCount = 1000
+        const transactionsCount = 5000
         for(let i = 0; i < transactionsCount; ++i) {
             const index = faker.number.int({min: 0, max: 2})
             switch (index) {
@@ -199,7 +185,7 @@ export class DatasetService {
 
 
         const allSubscriptions = await this.subscriptionsRepository.find()
-        const boughtCount = 1000
+        const boughtCount = 5000
         for(let i = 0; i < boughtCount; ++i) {
             await this.boughtSubscriptionsRepository.save({
                 start_date: faker.date.between({from: '2020-01-01T00:00:00', to: '2023-01-01T00:00:00'}).toISOString(),
@@ -211,21 +197,22 @@ export class DatasetService {
 
 
         const allCategories = await this.categoriesRepository.find()
-        const incomesCount = 2000
+        const incomeCategories = allCategories.filter(category => category.id >= 18 && category.id <= 27);
+        const incomesCount = 3000
         for(let i = 0; i < incomesCount; ++i) {
             await this.incomesRepository.save({
                 sum: faker.number.int({min: 20, max: 1000}),
-                i_date: faker.date.between({from: '2022-01-01T00:00:00', to: '2024-04-20T00:00:00'}).toISOString(),
-                category: allCategories[faker.number.int({min: 0, max: allCategories.length - 1})]
+                i_date: faker.date.between({from: '2022-01-01T00:00:00', to: '2024-05-01T00:00:00'}).toISOString(),
+                category: incomeCategories[faker.number.int({min: 0, max: incomeCategories.length - 1})]
             })
         }
 
 
-        const expensesCount = 1000
+        const expensesCount = 1500
         for(let i = 0; i < expensesCount; ++i) {
             await this.expensesRepository.save({
                 sum: faker.number.int({min: 20, max: 1000}),
-                e_date: faker.date.between({from: '2022-01-01T00:00:00', to: '2024-04-20T00:00:00'}).toISOString(),
+                e_date: faker.date.between({from: '2022-01-01T00:00:00', to: '2024-05-01T00:00:00'}).toISOString(),
                 category: allCategories[faker.number.int({min: 0, max: allCategories.length - 1})]
             })
         }
@@ -266,6 +253,22 @@ export class DatasetService {
                     rating: data.rating,
                     description: data.description,
                     customer: customers[faker.number.int({min: 0, max: customers.length - 1})]
+                })
+            })
+    }
+    private async readGroupClassesData() {
+
+        const trainers = await this.trainersRepository.find()
+        const fileStream = fs.createReadStream('group_classes.csv')
+            .pipe(csv())
+            .on('data', async (data) => {
+                this.groupClassesRepository.save({
+                    type: data.type,
+                    price: data.price,
+                    day: data.day,
+                    start_time: data.start_time,
+                    space_left: data.space_left,
+                    trainer: trainers[faker.number.int({min: 0, max: trainers.length - 1})]
                 })
             })
     }

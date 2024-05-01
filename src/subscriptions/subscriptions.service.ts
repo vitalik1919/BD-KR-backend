@@ -5,6 +5,8 @@ import {CreateSubscriptionDto} from "./dto/create-subscription.dto";
 import {UpdateSubscriptionDto} from "./dto/update-subscription.dto";
 import {BoughtSubscription} from "../bought_subscriptions/entities/bought_subscription.entity";
 import {SubscriptionsFilterDTO} from "./dto/subscriptionsFilterDTO";
+import {Protocol} from "../protocols/entities/protocol.entity";
+import {Transaction} from "../transactions/entities/transaction.entity";
 
 @Injectable()
 export class SubscriptionsService {
@@ -14,6 +16,10 @@ export class SubscriptionsService {
       private subscriptionRepository: Repository<Subscription>,
       @Inject('BOUGHT_SUBSCRIPTION_REPOSITORY')
       private boughtSubscriptionRepository: Repository<BoughtSubscription>,
+      @Inject('PROTOCOL_REPOSITORY')
+      private protocolRepository: Repository<Protocol>,
+      @Inject('TRANSACTION_REPOSITORY')
+      private transactionRepository: Repository<Transaction>,
   ) {}
 
   async findAll(): Promise<Subscription[]> {
@@ -57,6 +63,14 @@ export class SubscriptionsService {
           }
         }
     )
+    const protocols = await this.protocolRepository.find({where: {subscription: {id: id}}})
+    for(let i = 0; i < protocols.length; ++i) {
+      await this.protocolRepository.delete(protocols[i].id)
+    }
+    const transactions = await this.transactionRepository.find({where: {trainerClass: {id: id}}})
+    for(let i = 0; i < transactions.length; ++i) {
+      await this.transactionRepository.delete(transactions[i].id)
+    }
     if(boughtSubs.length === 0)
       await this.subscriptionRepository.delete(id);
     else {

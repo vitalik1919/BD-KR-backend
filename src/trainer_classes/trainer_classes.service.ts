@@ -5,6 +5,8 @@ import { CreateTrainerClassDto } from './dto/create-trainer_class.dto';
 import { UpdateTrainerClassDto } from './dto/update-trainer_class.dto';
 import {UpdateCustomerDto} from "../customers/dto/update-customer.dto";
 import {TrainerClassFilterDTO} from "./dto/TrainerClassFilterDTO";
+import {Protocol} from "../protocols/entities/protocol.entity";
+import {Transaction} from "../transactions/entities/transaction.entity";
 
 @Injectable()
 export class TrainerClassesService {
@@ -12,6 +14,10 @@ export class TrainerClassesService {
   constructor(
       @Inject('TRAINER_CLASS_REPOSITORY')
       private trainerClassRepository: Repository<TrainerClass>,
+      @Inject('PROTOCOL_REPOSITORY')
+      private protocolRepository: Repository<Protocol>,
+      @Inject('TRANSACTION_REPOSITORY')
+      private transactionRepository: Repository<Transaction>,
   ) {}
 
   async findAll(): Promise<TrainerClass[]> {
@@ -88,21 +94,39 @@ export class TrainerClassesService {
       return this.trainerClassRepository.save(trainerClass);
   }
 
-    async filterClasses(filterDTO: TrainerClassFilterDTO): Promise<TrainerClass[]> {
+    async filterClasses(role : number, trId : number, filterDTO: TrainerClassFilterDTO): Promise<TrainerClass[]> {
         const { minPrice, maxPrice, chosenWeekdays, startTime, endTime } = filterDTO;
-
         let query = this.trainerClassRepository.createQueryBuilder('trainer_class')
-            .select([
-                'trainer_class.id',
-                'trainer.first_name',
-                'trainer.last_name',
-                'trainer_class.price',
-                'trainer_class.start_time',
-                'trainer_class.end_time',
-                'trainer_class.weekdays'
-            ])
-            .leftJoin('trainer_class.trainer', 'trainer')
-            .where('trainer_class.customer is null');
+        if(role == 2) {
+            query = this.trainerClassRepository.createQueryBuilder('trainer_class')
+                .select([
+                    'trainer_class.id',
+                    'trainer.first_name',
+                    'trainer.last_name',
+                    'trainer_class.price',
+                    'trainer_class.start_time',
+                    'trainer_class.end_time',
+                    'trainer_class.weekdays'
+                ])
+                .leftJoin('trainer_class.trainer', 'trainer')
+                .where('trainer_class.customer is null')
+                .andWhere(`trainer.id = ${trId}`)
+        }
+        else {
+            query = this.trainerClassRepository.createQueryBuilder('trainer_class')
+                .select([
+                    'trainer_class.id',
+                    'trainer.first_name',
+                    'trainer.last_name',
+                    'trainer_class.price',
+                    'trainer_class.start_time',
+                    'trainer_class.end_time',
+                    'trainer_class.weekdays'
+                ])
+                .leftJoin('trainer_class.trainer', 'trainer')
+                .where('trainer_class.customer is null');
+        }
+
 
         if (minPrice !== undefined && maxPrice !== undefined) {
             query = query.andWhere('trainer_class.price BETWEEN :minPrice AND :maxPrice', { minPrice, maxPrice });
@@ -143,6 +167,14 @@ export class TrainerClassesService {
   }
 
   async remove(id: number): Promise<void> {
-    await this.trainerClassRepository.delete(id);
+      const protocols = await this.protocolRepository.find({where: {trainerClass: {id: id}}})
+      for(let i = 0; i < protocols.length; ++i) {
+          await this.protocolRepository.delete(protocols[i].id)
+      }
+      const transactions = await this.transactionRepository.find({where: {trainerClass: {id: id}}})
+      for(let i = 0; i < transactions.length; ++i) {
+          await this.transactionRepository.delete(transactions[i].id)
+      }
+      await this.trainerClassRepository.delete(id);
   }
 }

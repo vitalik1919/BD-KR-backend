@@ -38,9 +38,11 @@ export class TrainerClassesController {
     return this.trainerClassesService.findAllOfTrainer(+trainerId)
   }
 
-  @Post('filtered')
-  async filterClasses(@Body() filterDTO : TrainerClassFilterDTO) {
-    return this.trainerClassesService.filterClasses(filterDTO)
+  @Post('filtered/:role/:trId')
+  async filterClasses(@Param('role') role: string,
+                      @Param('trId') trId: string,
+                      @Body() filterDTO : TrainerClassFilterDTO) {
+    return this.trainerClassesService.filterClasses(+role, +trId, filterDTO)
   }
 
   @Patch(':id')

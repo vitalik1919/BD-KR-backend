@@ -1,0 +1,1001 @@
+type,price,day,start_time,space_left
+Gymnastics,21,THU,12:48,16
+Horseback Riding,51,TUE,10:50,20
+Bollywood Bhangra,23,SAT,12:54,12
+Pole Fitness,47,MON,10:33,15
+Paddleboard Yoga,26,WED,18:05,10
+Pole Fitness,28,SAT,15:56,18
+Urban Rebounding,47,MON,20:59,17
+Eskrima,47,TUE,17:44,11
+Acro Yoga,54,FRI,8:34,18
+Tabata,42,SAT,16:41,14
+Interval Training,52,SAT,19:32,8
+Spartan Training,26,SAT,16:20,20
+Essentrics,26,FRI,16:55,11
+Kickboxing,39,FRI,19:16,0
+Merengue,20,THU,16:42,1
+Aerial Yoga,31,TUE,16:52,10
+Piloxing Barre,32,FRI,19:48,19
+Qi Gong,53,FRI,19:11,21
+Essentrics,53,MON,10:58,13
+Cardio Kickboxing,21,TUE,12:05,8
+Wushu,52,FRI,17:27,5
+Wushu,52,THU,8:23,1
+Glide Fit,47,FRI,17:29,11
+Urban Rebounding,49,MON,18:18,5
+Eskrima,27,SAT,12:35,18
+Eskrima,22,FRI,12:44,6
+Glide Fit,40,WED,15:47,1
+Kendo,48,FRI,13:01,18
+Pound,42,WED,15:06,3
+U-Jam,29,SAT,9:02,5
+Wushu,52,TUE,9:48,8
+Gyrotonic,54,FRI,16:46,18
+Bollywood Bhangra,51,MON,17:44,13
+Insanity,36,SAT,20:10,5
+Street Dance,25,FRI,12:50,1
+Plyometrics,42,MON,16:26,19
+Acro Yoga,46,SAT,19:36,10
+Fencing,23,FRI,12:02,18
+Lagree Fitness,50,SAT,10:26,14
+Urban Rebounding,40,TUE,17:47,6
+Bollywood Bhangra,43,MON,15:26,5
+Plyometrics,41,FRI,13:28,1
+Jazzercise,23,THU,20:57,14
+Yogalates,53,SAT,10:31,7
+Barre,46,MON,12:06,14
+Step Aerobics,30,TUE,9:16,14
+Urban Rebounding,38,TUE,17:42,19
+Dance Cardio,22,SAT,15:38,4
+Yogalates,35,THU,19:09,9
+Pilates,41,FRI,10:34,14
+CrossFit,28,THU,9:53,21
+Jazzercise,38,THU,15:53,15
+Water Aerobics,55,MON,16:24,3
+Zorba,54,TUE,9:58,22
+Eskrima,32,TUE,18:05,11
+Essentrics,22,SAT,9:37,12
+Bhangra Fitness,39,SAT,12:36,6
+Paddleboard Yoga,27,TUE,18:14,6
+Parkour,26,THU,9:39,12
+Plyometrics,50,MON,10:30,8
+Tango,35,FRI,10:33,6
+Fencing,35,TUE,9:05,10
+Aerial Hoop,43,TUE,12:41,20
+Eskrima,53,SAT,8:02,9
+Jazzercise,31,TUE,19:49,10
+Ballet,23,MON,13:46,3
+Strong by Zumba,40,SAT,12:26,19
+Barre,52,TUE,16:10,3
+Horseback Riding,29,THU,8:26,14
+Kickboxing,32,WED,20:04,10
+Pilates,34,THU,9:19,8
+U-Jam,29,MON,14:31,22
+Eskrima,43,WED,20:52,15
+Wushu,22,WED,19:00,1
+Stair Climbing,23,TUE,19:28,2
+Spartan Training,40,THU,10:19,11
+Kickboxing,51,TUE,11:55,10
+Horseback Riding,53,MON,14:28,6
+Tabata,38,WED,11:47,15
+Zoomba,47,TUE,14:44,2
+Lagree Fitness,22,THU,20:57,11
+Gyrotonic,44,FRI,18:20,15
+CrossFit,27,TUE,8:12,12
+Krav Maga,45,MON,10:52,10
+Hiking,28,WED,17:14,11
+Yogalates,53,MON,17:22,2
+Dance Fitness,43,WED,17:54,0
+TRX,31,MON,15:23,22
+Salsa,37,MON,17:36,10
+Piloxing Barre,55,SAT,9:36,18
+Bollywood Dance,39,TUE,16:26,2
+Yogalates,43,FRI,10:31,14
+Pole Fitness,30,SAT,20:58,15
+Street Dance,28,SAT,14:19,13
+Pilates,25,TUE,8:38,1
+Tae Bo,41,THU,17:46,16
+Surfset,40,FRI,8:42,9
+Bodyweight Training,25,SAT,11:53,22
+Bollywood Bhangra,25,WED,14:13,6
+Belly Dancing,50,FRI,15:51,3
+Rowing,39,WED,20:27,15
+Spartan Training,55,FRI,13:42,0
+Barbell Strength,30,MON,9:34,5
+Belly Dancing,48,THU,20:23,16
+Bootcamp,22,SAT,10:42,1
+Eskrima,25,SAT,15:25,3
+Cycling,35,THU,12:21,5
+Tango,28,MON,19:50,17
+Spartan Training,31,FRI,9:02,20
+HIIT,32,TUE,13:28,9
+Boxing,46,WED,10:19,8
+Ski Conditioning,45,SAT,8:14,21
+Aqua Zumba,36,TUE,19:38,6
+Bollywood Bhangra,31,SAT,10:24,10
+Nia,32,MON,8:13,12
+Belly Dancing,33,THU,10:57,5
+Pilates,33,MON,11:04,6
+Bodyweight Training,39,SAT,13:32,20
+Boxing,42,FRI,16:03,17
+Strong by Zumba,54,WED,11:20,8
+RPM,27,MON,16:40,19
+Samba,40,MON,17:17,4
+Belly Dancing,24,WED,11:50,1
+HIIT,29,WED,17:11,20
+Wushu,39,TUE,10:02,16
+Salsa,38,TUE,9:52,9
+Tai Chi,30,FRI,12:42,3
+Lagree Fitness,54,MON,14:46,6
+Bodyweight Training,22,THU,10:27,10
+Plyometrics,45,TUE,16:16,4
+Street Dance,51,TUE,12:04,7
+Interval Training,26,FRI,13:11,12
+RPM,23,THU,16:16,5
+Street Dance,55,FRI,9:32,14
+Kettlebell,21,SAT,8:31,2
+Belly Dancing,43,SAT,19:49,14
+Acro Yoga,52,FRI,15:37,9
+Trapeze,42,TUE,13:43,15
+Dance Cardio,26,TUE,20:48,22
+Urban Rebounding,55,THU,8:42,21
+Tabata,35,SAT,20:44,19
+Bodyweight Training,25,MON,8:12,12
+Gyrotonic,38,THU,20:33,11
+Acro Yoga,49,THU,12:35,22
+Stair Climbing,26,MON,17:15,6
+Parkour,48,SAT,10:05,11
+Dancehall,42,WED,8:22,21
+Samba,50,FRI,11:55,4
+Fencing,49,SAT,20:52,19
+Gymnastics,42,SAT,13:40,17
+Interval Training,52,FRI,9:38,20
+Dancehall,50,MON,17:30,7
+Glide Fit,47,MON,18:24,18
+Zumba,24,FRI,17:15,13
+Body Pump,40,FRI,17:05,17
+Powerlifting,37,MON,16:01,20
+Bhangra Fitness,45,MON,19:00,1
+Vixen Workout,21,THU,17:48,2
+Pole Fitness,27,THU,20:56,10
+TRX,44,WED,16:42,9
+Boxing,38,SAT,9:45,14
+Jazzercise,54,SAT,12:38,17
+Fencing,38,FRI,14:57,15
+Tabata,48,THU,17:15,21
+Samba,26,FRI,17:09,0
+Yogalates,39,THU,13:37,2
+Tae Bo,30,SAT,13:27,0
+Yogalates,22,TUE,17:12,10
+Zorba,53,TUE,8:29,11
+Lagree Fitness,27,TUE,12:09,20
+Gyrotonic,33,SAT,10:37,8
+Kendo,34,SAT,11:36,19
+Dance Fitness,38,THU,9:58,2
+Salsa,30,FRI,10:50,4
+Pole Fitness,36,FRI,8:40,13
+Gymnastics,47,WED,10:48,13
+Dance Fitness,25,FRI,19:44,0
+MMA,45,THU,16:31,1
+Kickboxing,35,THU,8:35,16
+Pound,49,FRI,20:21,21
+RPM,40,MON,13:33,20
+Surfset,22,SAT,16:47,15
+Climbing,39,MON,9:07,13
+Dance Cardio,42,TUE,12:11,14
+Aqua Zumba,41,MON,8:27,17
+Street Dance,26,SAT,17:45,1
+Piloxing,27,THU,11:01,10
+Pilates,43,WED,16:59,2
+TRX,47,SAT,15:06,9
+Merengue,31,MON,19:59,20
+Horseback Riding,32,THU,18:45,19
+Capoeira,27,WED,10:32,17
+Muay Thai,55,THU,13:55,9
+Yoga,23,THU,13:17,20
+Samba,46,TUE,18:40,4
+Piloxing,30,FRI,17:13,0
+Aquafit,53,MON,19:59,20
+Tae Bo,29,FRI,17:23,10
+Nia,46,SAT,10:19,22
+Trapeze,36,THU,20:53,18
+Horseback Riding,55,THU,14:51,17
+Glide Fit,30,MON,10:49,19
+Bollywood Aerobics,36,THU,11:50,2
+Zorba,50,WED,17:11,11
+Paddleboard Yoga,54,MON,9:12,1
+TRX,43,SAT,9:42,13
+Bodyweight Training,52,TUE,10:21,3
+Aquafit,33,MON,17:09,11
+Aquafit,20,WED,10:35,7
+Salsa,28,SAT,18:59,5
+Krav Maga,43,FRI,17:17,17
+HIIT,50,SAT,12:10,2
+Rowing,39,WED,15:31,18
+Bootcamp,38,WED,16:07,13
+Interval Training,20,TUE,15:18,2
+Olympic Lifting,28,FRI,14:44,8
+Urban Rebounding,36,FRI,9:43,12
+Paddleboard Yoga,38,THU,17:52,14
+Eskrima,48,MON,17:30,3
+Boxing,54,TUE,17:14,21
+Jiu Jitsu,41,MON,8:11,22
+Vixen Workout,52,THU,19:30,1
+Samba,55,SAT,9:13,17
+Spin,29,MON,11:47,20
+Rock Climbing,29,THU,17:00,20
+Gymnastics,36,TUE,11:27,0
+Jazzercise,48,THU,15:05,10
+Hiking,35,WED,20:31,3
+Aerial Silks,33,TUE,19:08,21
+Muay Thai,40,MON,18:47,5
+Cardio Barre,40,SAT,18:28,10
+Fencing,20,MON,14:26,11
+Krav Maga,37,THU,13:50,17
+Aerial Silks,34,SAT,14:43,1
+Dance Fitness,35,TUE,8:04,0
+Hula Hoop Fitness,23,MON,9:32,7
+Pole Fitness,48,MON,20:33,22
+Rope Skipping,27,FRI,19:08,0
+Ballet,53,THU,10:07,15
+Interval Training,46,MON,20:45,0
+Bollywood Dance,24,THU,13:55,9
+Lagree Fitness,53,FRI,14:01,15
+Aquafit,34,TUE,17:25,1
+Qi Gong,29,WED,18:26,13
+Yogalates,47,THU,20:17,16
+Vinyasa Flow,45,FRI,15:53,6
+Rope Skipping,32,TUE,18:09,0
+Piloxing,28,WED,16:14,19
+Pole Fitness,41,MON,9:01,14
+Lagree Fitness,46,WED,13:58,21
+Gymnastics,45,SAT,16:41,16
+Nia,34,WED,12:26,9
+Bollywood Dance,44,WED,12:37,2
+Salsa,42,SAT,8:08,15
+Aerial Yoga,41,THU,20:35,21
+Bollywood Dance,39,TUE,19:33,15
+Kendo,32,SAT,14:27,6
+Zorba,29,MON,17:23,4
+Zorba,44,TUE,8:18,14
+Lagree Fitness,25,MON,13:12,11
+RPM,26,SAT,9:02,18
+Pole Fitness,39,TUE,11:11,8
+Spin,32,THU,16:00,5
+Belly Dancing,33,THU,9:21,2
+Vinyasa Flow,50,FRI,16:21,4
+Cardio Barre,45,TUE,20:38,7
+Strong by Zumba,28,WED,16:04,19
+Bollywood Dance,46,TUE,9:36,20
+Hiking,47,SAT,18:20,6
+Gymnastics,22,FRI,13:23,19
+Stair Climbing,51,WED,20:23,19
+Kangoo Jumps,36,SAT,12:47,15
+Dance Cardio,33,SAT,17:32,13
+Zumba,37,THU,17:38,5
+Kettlebell,23,FRI,13:14,3
+Urban Rebounding,46,TUE,17:30,17
+Tabata,44,WED,17:35,12
+Kickboxing,51,WED,16:33,1
+Cardio Dance,27,WED,17:11,19
+Cycling,45,FRI,17:46,6
+Yogalates,54,THU,14:38,20
+Tabata,30,WED,9:15,12
+Parkour,46,MON,20:26,8
+Street Dance,40,FRI,16:22,18
+Kangoo Jumps,50,FRI,13:45,8
+Bhangra Fitness,43,MON,11:10,22
+Barbell Strength,52,TUE,20:43,0
+Tai Chi,47,THU,11:22,21
+Body Pump,52,SAT,15:03,12
+Tango,45,WED,18:14,2
+Ski Conditioning,52,FRI,12:39,18
+Yogalates,31,SAT,20:18,0
+Bollywood Dance,27,MON,8:41,9
+Wushu,25,WED,12:02,2
+HIIT,37,TUE,12:04,19
+Essentrics,22,MON,13:37,8
+Muay Thai,22,SAT,15:12,13
+Essentrics,41,TUE,10:07,21
+Tango,23,THU,10:32,5
+Dance Fitness,21,WED,17:55,9
+Bollywood Bhangra,24,SAT,8:58,13
+Cardio Dance,33,WED,10:23,9
+Samba,38,THU,8:14,11
+Vinyasa Flow,50,FRI,19:30,0
+Bhangra Fitness,52,THU,8:16,22
+Tabata,37,SAT,19:08,15
+Wallyball,51,MON,10:02,5
+Cardio Barre,52,FRI,13:37,14
+Yogalates,24,TUE,8:15,0
+Foam Rolling,30,MON,14:12,14
+Wallyball,34,FRI,13:31,12
+Eskrima,44,SAT,8:50,1
+Aerial Yoga,44,MON,12:31,19
+Zoomba,31,WED,11:16,6
+Kangoo Jumps,48,WED,14:15,18
+Parkour,22,SAT,9:44,15
+Bootcamp,26,TUE,15:21,13
+Qi Gong,37,THU,19:12,13
+Yogalates,37,TUE,20:55,1
+Piloxing,25,SAT,11:16,18
+Bollywood Dance,34,SAT,16:31,21
+Ballet,50,WED,18:35,21
+Dance Cardio,30,SAT,18:22,17
+Lagree Fitness,42,THU,17:29,18
+Aerial Silks,45,MON,20:15,6
+Belly Dancing,40,FRI,15:58,17
+Xtreme Hip Hop,29,SAT,8:56,16
+Barbell Strength,39,SAT,15:08,1
+Ballet,25,SAT,10:17,19
+Pole Fitness,24,TUE,13:24,7
+Bootcamp,25,TUE,20:49,3
+Gyrotonic,35,FRI,13:50,15
+Aqua Zumba,30,TUE,10:10,8
+Bollywood Aerobics,40,SAT,13:38,20
+Bollywood Aerobics,36,WED,14:21,10
+Barre,47,MON,16:22,6
+Belly Dancing,47,WED,8:14,17
+Qi Gong,21,FRI,19:28,18
+Tabata,38,WED,16:59,13
+CrossFit,36,SAT,16:06,10
+Vixen Workout,24,MON,20:41,18
+Yogalates,51,THU,14:42,3
+Eskrima,49,WED,11:08,7
+Essentrics,22,MON,12:58,18
+Surfset,29,TUE,8:35,11
+Dancehall,30,FRI,17:49,7
+Yoga,34,MON,8:19,7
+Body Pump,21,WED,18:56,9
+Horseback Riding,40,THU,15:16,0
+Piloxing Barre,43,FRI,13:26,19
+Dancehall,31,TUE,11:29,9
+Rowing,44,SAT,10:13,5
+Zorba,40,TUE,12:39,10
+Bollywood Bhangra,28,WED,11:35,18
+Zumba,38,THU,10:29,4
+Nia,29,SAT,11:07,10
+Fencing,55,WED,12:14,21
+Merengue,29,WED,16:42,21
+MMA,43,WED,19:46,0
+Wallyball,55,TUE,11:31,15
+Capoeira,33,SAT,8:07,3
+Tae Bo,40,TUE,9:17,19
+Paddleboard Yoga,24,MON,12:19,3
+CrossFit,30,THU,14:22,8
+Zoomba,36,THU,11:09,19
+Nia,48,FRI,16:26,0
+Plyometrics,21,WED,10:40,13
+Pilates,43,TUE,17:32,22
+Lagree Fitness,34,THU,13:25,3
+Salsa,38,THU,19:55,10
+Pound,25,SAT,9:51,4
+Bootcamp,39,MON,19:27,3
+Step Aerobics,29,SAT,14:54,16
+Xtreme Hip Hop,41,WED,15:19,22
+Fencing,51,SAT,18:31,10
+Zoomba,38,TUE,16:50,16
+Surfset,20,SAT,10:34,17
+Qi Gong,41,TUE,18:49,11
+Bollywood Dance,46,TUE,8:54,4
+Dance Cardio,38,THU,17:24,0
+Strong by Zumba,55,THU,20:00,0
+Wushu,29,SAT,8:48,8
+Rock Climbing,54,MON,16:07,10
+Bollywood Aerobics,51,SAT,19:29,19
+MMA,28,THU,17:07,3
+Jiu Jitsu,29,THU,8:15,5
+CrossFit,50,WED,16:53,11
+Cardio Kickboxing,35,WED,15:45,8
+Qi Gong,42,FRI,13:21,2
+HIIT,38,WED,8:59,17
+Piloxing,28,MON,15:32,12
+Zumba,40,WED,16:31,18
+Zumba,30,TUE,16:20,22
+Surfset,44,TUE,9:18,15
+Fencing,31,WED,19:57,13
+Bollywood Dance,22,SAT,9:37,22
+Cardio Dance,50,SAT,14:55,6
+Climbing,32,FRI,11:28,15
+Strong by Zumba,32,WED,14:31,16
+Cardio Kickboxing,23,TUE,14:36,21
+Salsa,21,TUE,12:40,18
+U-Jam,43,THU,20:23,18
+Aerial Silks,45,SAT,18:14,20
+Foam Rolling,24,WED,14:57,3
+Muay Thai,45,SAT,15:45,0
+Dance Fitness,28,TUE,18:16,15
+RPM,37,THU,17:56,7
+Glide Fit,20,THU,20:50,12
+Rowing,52,WED,16:24,1
+Jazzercise,30,MON,11:50,4
+Cardio Barre,32,THU,16:53,17
+Xtreme Hip Hop,28,SAT,10:37,2
+Interval Training,26,SAT,19:11,21
+Aqua Zumba,32,FRI,9:17,13
+Xtreme Hip Hop,31,THU,9:37,5
+Rowing,50,FRI,10:59,0
+Zumba,48,MON,17:14,11
+Krav Maga,50,FRI,13:32,6
+Street Dance,52,THU,11:11,0
+Kickboxing,33,TUE,13:30,12
+Yoga,25,TUE,12:14,13
+Samba,49,THU,20:33,8
+Vixen Workout,27,THU,12:05,14
+Aerial Yoga,45,WED,11:31,11
+Olympic Lifting,46,WED,12:37,19
+Paddleboard Yoga,30,THU,18:39,9
+Vinyasa Flow,38,WED,9:27,11
+Rock Climbing,31,WED,14:03,5
+Xtend Barre,36,FRI,18:37,19
+Hiking,27,THU,17:08,0
+Kettlebell,22,THU,10:49,14
+Dancehall,28,TUE,10:38,1
+Krav Maga,21,TUE,11:59,17
+Ski Conditioning,40,THU,13:30,21
+Urban Rebounding,35,MON,20:40,17
+Vinyasa Flow,36,WED,20:35,11
+Nia,54,TUE,11:02,20
+Samba,30,SAT,13:46,19
+Spin,52,TUE,13:43,18
+Dance Cardio,28,TUE,16:05,0
+Hiking,54,MON,11:44,14
+Piloxing Barre,37,MON,17:25,0
+Horseback Riding,31,FRI,10:00,15
+Tai Chi,51,SAT,10:06,17
+Essentrics,35,MON,18:37,14
+Vixen Workout,20,THU,8:45,4
+Kendo,29,FRI,13:50,5
+Tabata,48,THU,11:50,11
+Cycling,38,FRI,10:49,2
+Kettlebell,21,TUE,20:09,9
+Street Dance,30,TUE,11:31,4
+Body Pump,53,TUE,8:28,18
+Urban Rebounding,31,TUE,12:44,7
+CrossFit,40,SAT,9:40,2
+Trapeze,53,WED,16:36,3
+Kangoo Jumps,42,SAT,11:22,2
+Qi Gong,46,WED,20:19,14
+TRX,40,THU,15:34,5
+Capoeira,31,FRI,17:47,20
+Aerial Silks,45,TUE,14:00,12
+Aerial Yoga,29,THU,19:23,7
+Hiking,47,SAT,9:56,6
+Ballet,37,TUE,14:46,6
+Stair Climbing,37,FRI,13:17,20
+Ballet,31,SAT,17:50,21
+Spartan Training,33,THU,19:44,14
+Kettlebell,29,FRI,18:05,4
+Xtend Barre,20,WED,16:35,5
+Acro Yoga,21,TUE,14:59,9
+Jiu Jitsu,23,THU,12:22,9
+Climbing,32,MON,15:45,20
+Vinyasa Flow,20,MON,17:06,2
+Olympic Lifting,47,FRI,17:43,1
+HIIT,53,SAT,15:47,21
+Body Pump,31,THU,13:01,3
+Parkour,25,WED,11:56,22
+Glide Fit,24,TUE,11:09,19
+Yogalates,38,FRI,11:18,13
+Zorba,29,MON,19:27,16
+Muay Thai,42,FRI,13:05,16
+Kangoo Jumps,52,SAT,18:50,10
+Boxing,36,MON,18:55,8
+Boxing,50,MON,19:40,14
+Tae Bo,48,TUE,11:45,1
+Wushu,39,THU,14:49,4
+Wallyball,41,MON,19:05,18
+Hula Hoop Fitness,49,THU,9:02,3
+Hiking,22,WED,11:38,13
+CrossFit,34,THU,20:16,21
+Fencing,42,SAT,10:51,6
+Climbing,25,SAT,12:38,13
+Yoga,34,TUE,9:34,12
+Kettlebell,20,FRI,8:19,16
+Yogalates,53,SAT,16:54,16
+Pilates,47,FRI,17:28,6
+Hula Hoop Fitness,33,THU,9:58,12
+Rock Climbing,54,FRI,13:56,7
+Horseback Riding,42,MON,13:28,21
+Body Pump,20,MON,11:21,14
+HIIT,26,MON,10:22,16
+Yogalates,50,WED,14:18,0
+Bodyweight Training,31,THU,18:42,0
+Hiking,20,THU,20:50,22
+Interval Training,26,FRI,11:01,4
+Acro Yoga,39,WED,17:06,7
+Tango,37,MON,17:01,13
+Piloxing Barre,32,SAT,18:02,8
+Gyrotonic,31,MON,11:38,19
+Dance Cardio,40,FRI,15:10,17
+Interval Training,30,FRI,16:56,22
+Essentrics,37,THU,18:30,8
+Yoga,52,WED,8:40,13
+Fencing,38,SAT,11:01,4
+Piloxing,45,THU,16:02,18
+Street Dance,42,FRI,13:46,12
+Yoga,23,MON,17:11,18
+Plyometrics,44,SAT,18:09,2
+Interval Training,23,MON,15:47,9
+Vixen Workout,37,FRI,14:28,6
+Bollywood Bhangra,32,FRI,14:56,6
+Muay Thai,27,FRI,11:48,4
+Samba,37,SAT,19:39,9
+Foam Rolling,41,THU,18:51,20
+Spartan Training,29,SAT,17:17,14
+Powerlifting,29,WED,19:16,12
+Bodyweight Training,49,TUE,19:54,22
+Rowing,26,THU,19:12,3
+Rock Climbing,44,FRI,20:00,22
+Paddleboard Yoga,23,WED,18:42,19
+Barbell Strength,33,WED,19:34,21
+Surfset,37,THU,9:33,11
+Climbing,40,SAT,10:10,5
+Urban Rebounding,52,TUE,15:39,11
+Xtend Barre,39,TUE,16:11,9
+Yogalates,55,MON,14:03,2
+U-Jam,39,SAT,19:08,10
+Climbing,54,SAT,13:34,16
+Dance Cardio,32,THU,9:05,11
+Bollywood Aerobics,40,THU,13:24,11
+Yoga,54,TUE,9:56,15
+Tae Bo,38,THU,12:46,14
+Step Aerobics,46,MON,11:39,11
+Strong by Zumba,42,FRI,16:36,20
+Circuit Training,48,THU,8:25,22
+Pole Fitness,37,WED,12:36,14
+Cardio Barre,33,WED,20:11,17
+Ballet,35,MON,19:04,8
+Gyrotonic,48,SAT,19:40,0
+Climbing,36,SAT,20:01,5
+RPM,45,WED,9:40,4
+Rope Skipping,22,SAT,10:52,12
+Body Pump,47,MON,12:11,18
+Bodyweight Training,45,WED,15:12,21
+Cardio Dance,37,TUE,19:17,9
+Bollywood Bhangra,51,THU,15:33,3
+Dancehall,37,WED,19:33,1
+Aqua Zumba,37,FRI,8:06,15
+Dance Fitness,45,FRI,13:49,19
+Boxing,30,TUE,19:39,6
+Cardio Dance,42,TUE,19:48,20
+Vixen Workout,41,WED,10:59,1
+Gyrotonic,49,MON,15:47,21
+Boxing,26,THU,17:42,6
+Street Dance,40,WED,13:25,11
+Kickboxing,46,MON,15:49,5
+Glide Fit,47,WED,13:30,6
+Parkour,34,SAT,11:11,19
+Olympic Lifting,41,MON,18:36,12
+Kettlebell,53,FRI,20:01,22
+Boxing,48,TUE,11:41,20
+Bhangra Fitness,40,MON,20:39,2
+Plyometrics,22,FRI,17:40,21
+Tae Bo,52,TUE,15:15,17
+Belly Dancing,31,THU,17:55,9
+Tabata,25,THU,18:46,0
+Tabata,31,TUE,15:41,10
+Kickboxing,33,TUE,12:33,22
+Aerial Hoop,24,TUE,8:03,22
+Vinyasa Flow,49,THU,12:28,20
+Eskrima,39,THU,8:13,1
+Wushu,43,MON,14:14,6
+Paddleboard Yoga,47,FRI,17:18,0
+Zumba,53,WED,9:20,11
+HIIT,29,FRI,19:03,8
+Bollywood Bhangra,54,THU,17:58,8
+Lagree Fitness,47,WED,12:49,18
+Jazzercise,26,WED,15:01,16
+Bodyweight Training,53,SAT,8:11,9
+Samba,38,TUE,13:06,0
+Cardio Barre,26,FRI,19:38,3
+Yogalates,33,WED,12:50,16
+Vinyasa Flow,34,THU,20:26,7
+Surfset,36,FRI,14:45,16
+Kettlebell,28,MON,19:11,20
+Eskrima,51,WED,20:47,8
+Zorba,45,SAT,16:01,18
+Bollywood Aerobics,29,SAT,18:58,13
+Rowing,44,WED,9:46,4
+Bodyweight Training,55,THU,11:57,8
+Rock Climbing,39,TUE,20:18,4
+Xtend Barre,38,THU,13:34,11
+Wallyball,25,TUE,17:41,9
+Horseback Riding,47,THU,11:36,6
+U-Jam,51,MON,18:55,16
+Kendo,49,FRI,20:57,19
+Bollywood Dance,44,MON,15:03,2
+Wallyball,40,FRI,16:24,14
+Aqua Zumba,31,SAT,11:33,5
+Rock Climbing,52,THU,17:11,6
+Glide Fit,34,MON,8:40,20
+Aerial Silks,25,WED,14:49,2
+TRX,54,TUE,12:57,5
+Capoeira,50,FRI,12:12,20
+Wallyball,40,FRI,12:40,1
+Acro Yoga,46,FRI,16:56,7
+Jiu Jitsu,23,TUE,8:02,3
+Bollywood Bhangra,37,WED,19:56,2
+Acro Yoga,47,WED,17:50,10
+Kendo,35,MON,16:47,12
+Xtend Barre,48,WED,19:01,16
+Essentrics,26,SAT,11:06,20
+Stair Climbing,29,SAT,19:38,4
+Tabata,23,SAT,8:14,14
+Yoga,43,WED,8:42,20
+Dance Fitness,40,THU,13:56,0
+Nia,25,WED,16:12,13
+Horseback Riding,52,SAT,16:29,20
+Climbing,48,MON,15:02,9
+Lagree Fitness,50,THU,20:33,8
+Bollywood Bhangra,41,SAT,17:25,13
+Xtreme Hip Hop,30,WED,10:10,14
+Zumba,30,FRI,9:19,1
+Hiking,42,MON,15:46,11
+Xtend Barre,51,FRI,18:51,7
+Hula Hoop Fitness,27,WED,16:19,10
+Wallyball,36,THU,12:01,18
+Powerlifting,43,FRI,14:08,19
+Aquafit,35,MON,14:31,21
+Hula Hoop Fitness,28,WED,15:22,0
+Krav Maga,27,WED,13:55,20
+Circuit Training,38,SAT,9:06,0
+TRX,49,THU,14:24,10
+Aquafit,43,FRI,19:46,10
+Cycling,31,FRI,19:30,4
+Stair Climbing,23,MON,11:03,0
+Circuit Training,30,WED,20:59,12
+Muay Thai,40,SAT,12:00,10
+Merengue,52,FRI,15:48,8
+Hula Hoop Fitness,29,THU,15:26,12
+Kickboxing,32,TUE,18:11,14
+Kickboxing,31,THU,12:54,2
+Step Aerobics,32,SAT,20:36,21
+Kettlebell,20,SAT,18:47,13
+Vinyasa Flow,31,THU,16:16,22
+Fencing,50,MON,16:58,2
+Horseback Riding,44,WED,10:09,21
+Kendo,26,THU,12:51,22
+Piloxing Barre,20,THU,19:33,7
+Samba,52,WED,8:27,6
+Barre,53,THU,13:36,19
+Olympic Lifting,33,FRI,15:16,17
+Strong by Zumba,21,MON,17:48,6
+Zoomba,52,FRI,17:13,19
+Lagree Fitness,29,TUE,13:07,21
+Stair Climbing,47,THU,18:09,15
+Spartan Training,26,SAT,19:05,4
+Paddleboard Yoga,45,MON,17:46,9
+Jiu Jitsu,45,THU,13:36,8
+Insanity,33,TUE,12:15,8
+Muay Thai,25,FRI,8:56,12
+Zorba,54,TUE,17:11,18
+Rowing,38,TUE,9:05,10
+Cardio Barre,44,THU,14:48,12
+U-Jam,38,MON,18:37,5
+Boxing,29,FRI,12:16,18
+Belly Dancing,46,THU,13:48,2
+Wallyball,26,TUE,8:53,12
+Tabata,47,SAT,15:40,19
+Surfset,46,SAT,16:32,7
+Piloxing,40,TUE,11:39,14
+Aqua Zumba,34,MON,13:23,10
+Yogalates,33,THU,16:05,16
+Merengue,43,MON,15:52,6
+Pilates,22,MON,20:24,8
+Hula Hoop Fitness,24,TUE,18:33,16
+Cycling,23,TUE,12:04,1
+Cardio Barre,27,WED,19:00,17
+Boxing,25,FRI,9:29,22
+Powerlifting,35,FRI,15:15,11
+Circuit Training,22,SAT,10:27,11
+Circuit Training,38,THU,9:15,0
+Paddleboard Yoga,21,MON,19:02,13
+Rowing,21,MON,11:47,0
+Yogalates,55,FRI,11:41,15
+Vinyasa Flow,46,WED,20:49,12
+Parkour,45,THU,17:30,0
+Kickboxing,52,TUE,8:51,3
+Bollywood Aerobics,38,SAT,9:46,20
+Trapeze,55,THU,18:13,7
+CrossFit,37,FRI,12:16,8
+Cardio Barre,49,MON,16:47,9
+Bollywood Aerobics,22,FRI,9:20,19
+Wallyball,29,WED,19:35,11
+Yogalates,38,FRI,10:14,6
+Tabata,20,THU,15:10,5
+Bhangra Fitness,35,THU,11:59,7
+Wushu,46,SAT,10:55,9
+Horseback Riding,42,MON,11:20,10
+Insanity,53,THU,12:51,15
+Eskrima,49,WED,17:33,0
+MMA,39,SAT,10:45,16
+Rowing,40,TUE,19:27,22
+Bollywood Aerobics,48,SAT,16:29,9
+RPM,46,SAT,19:47,16
+Nia,38,TUE,13:05,15
+Gymnastics,44,TUE,10:43,0
+Cardio Kickboxing,30,MON,18:49,14
+Olympic Lifting,55,TUE,13:39,19
+Xtreme Hip Hop,40,WED,8:06,2
+TRX,22,THU,8:41,22
+Essentrics,35,SAT,20:56,6
+Step Aerobics,47,WED,11:25,2
+Qi Gong,51,TUE,10:48,7
+Wushu,42,TUE,19:08,22
+U-Jam,26,MON,14:05,2
+Merengue,20,WED,18:22,16
+Cycling,49,THU,10:55,15
+Olympic Lifting,45,SAT,11:26,17
+Bollywood Aerobics,35,FRI,20:46,13
+Merengue,53,THU,9:31,21
+Water Aerobics,36,FRI,11:19,20
+Boxing,32,SAT,18:49,16
+Nia,55,TUE,12:19,9
+Piloxing,44,THU,8:49,1
+Boxing,24,TUE,11:42,0
+Aquafit,28,TUE,20:08,17
+Aquafit,48,WED,12:13,15
+Pole Fitness,41,WED,20:47,4
+Insanity,33,MON,15:05,1
+Yoga,55,SAT,10:17,12
+Parkour,20,FRI,18:54,21
+Nia,48,MON,11:02,0
+Hula Hoop Fitness,46,SAT,8:57,17
+Barbell Strength,44,TUE,14:38,9
+Pole Fitness,29,SAT,12:58,22
+Lagree Fitness,41,MON,11:58,12
+CrossFit,43,MON,14:45,13
+Vinyasa Flow,37,WED,19:27,19
+Pilates,37,WED,14:19,4
+Vixen Workout,25,WED,9:18,3
+Olympic Lifting,30,MON,13:33,18
+Glide Fit,53,TUE,20:07,0
+Merengue,44,SAT,17:49,22
+Aerial Hoop,29,WED,11:18,8
+Glide Fit,30,MON,18:49,4
+Rope Skipping,47,MON,9:12,1
+Stair Climbing,30,WED,16:29,5
+Hiking,39,MON,18:49,13
+Olympic Lifting,50,WED,17:36,19
+Tae Bo,37,FRI,18:27,20
+Pole Fitness,33,FRI,13:33,2
+Glide Fit,22,FRI,11:16,13
+Rock Climbing,30,TUE,17:00,19
+Rowing,50,THU,12:01,0
+Rock Climbing,31,TUE,10:34,2
+Aquafit,45,THU,19:41,12
+Hiking,54,THU,11:21,12
+Trapeze,45,TUE,20:43,3
+Tango,21,MON,14:34,17
+Boxing,32,SAT,20:43,17
+Trapeze,38,FRI,10:18,15
+Muay Thai,21,THU,12:46,20
+RPM,46,WED,19:35,17
+Dancehall,44,WED,19:27,8
+Merengue,35,THU,10:28,12
+Olympic Lifting,50,WED,14:02,19
+Horseback Riding,50,WED,9:01,21
+Cardio Barre,53,TUE,16:30,17
+Horseback Riding,39,MON,14:27,1
+Hula Hoop Fitness,39,THU,8:17,4
+Tai Chi,22,SAT,13:07,11
+Eskrima,39,FRI,11:15,21
+Ballet,55,WED,10:07,21
+CrossFit,28,MON,15:09,5
+Xtreme Hip Hop,37,THU,14:31,7
+Piloxing,50,TUE,13:20,6
+Fencing,42,MON,19:43,12
+Kendo,51,TUE,20:03,3
+Pole Fitness,51,WED,18:09,21
+Tabata,34,WED,8:03,8
+Krav Maga,47,THU,19:38,12
+Krav Maga,33,WED,13:40,2
+Cardio Kickboxing,54,WED,9:55,22
+Hiking,21,THU,15:35,10
+Kendo,30,FRI,10:12,4
+Merengue,54,SAT,17:07,5
+Water Aerobics,31,MON,14:07,10
+Nia,48,TUE,11:03,4
+Yogalates,50,SAT,14:15,18
+Piloxing,53,SAT,14:07,1
+Bootcamp,50,FRI,11:55,11
+Rowing,36,WED,14:02,17
+Glide Fit,31,MON,10:43,2
+Rowing,52,TUE,17:18,6
+Zorba,34,WED,20:31,10
+Bollywood Dance,22,THU,16:24,1
+Pilates,20,MON,9:57,1
+Piloxing Barre,34,WED,11:54,11
+Bollywood Dance,54,SAT,15:22,17
+Barre,52,SAT,19:54,16
+Acro Yoga,40,SAT,13:19,2
+Wushu,43,SAT,9:57,4
+Essentrics,26,SAT,13:31,4
+Aerial Yoga,48,MON,20:42,14
+Step Aerobics,35,MON,19:26,0
+Tai Chi,41,FRI,15:51,16
+RPM,39,MON,10:35,22
+Strong by Zumba,25,FRI,18:58,4
+Climbing,36,FRI,18:03,1
+Street Dance,24,FRI,18:57,6
+Kettlebell,52,THU,10:25,11
+Bhangra Fitness,29,FRI,12:12,18
+Piloxing Barre,44,TUE,15:33,9
+Strong by Zumba,30,MON,19:21,13
+Foam Rolling,31,MON,15:41,21
+Cardio Dance,53,FRI,10:03,2
+Boxing,54,THU,11:35,3
+Olympic Lifting,35,THU,11:12,17
+Ballet,39,TUE,11:27,5
+Tango,46,MON,11:50,3
+Stair Climbing,31,MON,9:02,15
+Wallyball,23,SAT,13:56,21
+Zoomba,40,TUE,15:35,21
+Jiu Jitsu,31,THU,11:33,16
+Rock Climbing,54,THU,16:30,18
+CrossFit,31,TUE,12:25,1
+Strong by Zumba,55,MON,19:09,16
+Aerial Hoop,21,MON,13:47,8
+Yogalates,32,WED,12:47,20
+Parkour,49,TUE,10:59,9
+Powerlifting,51,FRI,17:28,13
+Interval Training,38,THU,13:58,1
+Paddleboard Yoga,40,THU,11:14,15
+Horseback Riding,36,TUE,20:03,2
+Lagree Fitness,53,SAT,15:13,15
+Step Aerobics,44,WED,15:25,8
+Wallyball,52,FRI,9:21,2
+Bollywood Dance,24,MON,13:02,8
+Aquafit,23,THU,10:56,18
+Powerlifting,25,THU,11:38,10
+Dancehall,27,WED,17:30,3
+Salsa,29,FRI,17:45,21
+Tango,48,MON,20:05,16
+Wushu,31,WED,9:19,1
+Xtreme Hip Hop,37,TUE,12:47,16
+Pilates,36,FRI,8:22,16
+Gyrotonic,31,WED,12:18,3
+Bodyweight Training,39,THU,8:22,0
+Yogalates,44,TUE,10:47,18
+Interval Training,27,TUE,17:54,22
+Cardio Kickboxing,28,FRI,17:45,16
+Aerial Yoga,55,FRI,13:41,7
+Jiu Jitsu,50,WED,19:50,12
+Tae Bo,46,WED,19:21,17
+Rope Skipping,54,MON,10:31,19
+Dancehall,32,WED,17:11,1
+Pilates,32,SAT,13:01,0
+Kendo,41,MON,19:58,14
+Powerlifting,21,THU,17:13,7
+HIIT,47,TUE,20:03,12
+Dancehall,39,THU,15:06,16
+MMA,23,SAT,17:52,18
+Bhangra Fitness,52,THU,16:42,22
+Parkour,25,MON,12:31,13
+Glide Fit,43,FRI,19:31,11
+Urban Rebounding,34,FRI,14:20,0
+Street Dance,51,SAT,11:58,22
+Glide Fit,53,FRI,8:47,14
+HIIT,34,MON,13:00,1
+Insanity,39,FRI,14:29,8
+Rowing,20,FRI,12:32,16
+Samba,41,TUE,18:18,14
+Stair Climbing,39,MON,16:42,4
+Circuit Training,24,WED,10:25,22
+Paddleboard Yoga,40,SAT,10:00,17
+Zoomba,32,WED,12:50,4
+Bhangra Fitness,26,FRI,8:40,6
+Eskrima,21,MON,10:52,6
+Tango,50,FRI,16:14,22
+Xtreme Hip Hop,39,MON,12:46,6
+Step Aerobics,28,TUE,14:23,7
+Spin,27,TUE,12:28,8
+Piloxing,43,MON,9:57,15
+Pole Fitness,30,TUE,8:56,4
+Xtreme Hip Hop,27,SAT,14:58,3
+Glide Fit,50,THU,9:21,21
+Acro Yoga,52,THU,11:37,3
+Parkour,26,SAT,14:50,9
+Boxing,48,MON,18:32,7
+Gyrotonic,45,MON,11:46,19
+U-Jam,46,SAT,15:54,0
+CrossFit,49,FRI,9:16,0
+Xtreme Hip Hop,23,THU,16:54,16
+Aquafit,35,SAT,9:30,17
+Dance Cardio,55,MON,9:28,19
+Spin,40,TUE,14:35,1
+Yogalates,23,SAT,18:38,15
+Kangoo Jumps,40,SAT,20:11,22
+Urban Rebounding,39,WED,19:26,6
+Kickboxing,39,SAT,15:23,21
+Krav Maga,21,FRI,20:16,13
+Foam Rolling,22,THU,15:11,4
+Insanity,20,FRI,11:11,22
+Spin,29,MON,15:14,3
+Xtreme Hip Hop,24,FRI,18:29,22
+Belly Dancing,52,FRI,16:21,20
+Cardio Kickboxing,34,SAT,13:17,13
+MMA,46,WED,9:48,14
+Salsa,22,MON,9:15,22
+Piloxing,54,WED,18:03,12
+Barbell Strength,48,TUE,19:17,4
+Piloxing Barre,40,FRI,14:03,9
+Strong by Zumba,42,FRI,16:12,8
+Samba,37,FRI,17:03,19
+Kendo,27,MON,10:05,12
+Yoga,39,WED,20:28,3
+Plyometrics,33,FRI,11:02,20
+Ski Conditioning,49,WED,8:51,16
+Belly Dancing,24,TUE,19:24,6
+Bodyweight Training,33,SAT,18:09,18
+Rock Climbing,46,TUE,12:45,9
+Muay Thai,35,SAT,17:31,5
+Zumba,28,MON,10:17,7
+RPM,42,TUE,15:43,10
+Zorba,53,TUE,9:32,11
+Pilates,41,THU,14:33,1
+Strong by Zumba,37,WED,15:18,22
+Tai Chi,55,THU,19:30,12
+Paddleboard Yoga,45,SAT,8:01,10
+Merengue,49,TUE,19:48,2
+Wallyball,20,SAT,9:13,4
+U-Jam,28,FRI,20:32,6
+Paddleboard Yoga,44,MON,9:20,13
+Lagree Fitness,54,SAT,18:37,19
+TRX,20,TUE,9:52,3
+HIIT,28,MON,17:59,18
+Qi Gong,49,SAT,11:31,11
+Aquafit,24,THU,15:19,20
+Qi Gong,40,TUE,19:05,4
+Bodyweight Training,37,THU,13:42,7
+CrossFit,43,WED,11:47,0
+Belly Dancing,48,THU,19:03,3
+Belly Dancing,28,FRI,19:31,12
+Strong by Zumba,34,SAT,20:55,10
+Water Aerobics,30,TUE,8:29,11
+Cycling,48,FRI,15:35,0
+Urban Rebounding,25,THU,12:47,9
+Nia,45,MON,13:27,2
+Krav Maga,47,WED,13:47,0
+Barre,37,SAT,12:34,9
+Samba,26,WED,19:52,0
+Kickboxing,53,FRI,8:19,16
+Urban Rebounding,43,WED,19:01,13
+Zoomba,36,THU,17:16,8
+Essentrics,45,MON,17:30,2
+Salsa,47,THU,14:11,7
+MMA,45,SAT,18:37,15
+Strong by Zumba,26,WED,10:53,22
+Piloxing Barre,28,WED,8:29,22
+Muay Thai,28,WED,15:38,21
+Xtend Barre,47,THU,11:44,19
+Glide Fit,29,FRI,11:49,7
+Aerial Yoga,46,SAT,15:41,2
+Spin,35,SAT,9:36,20
+Xtreme Hip Hop,53,MON,17:00,21
+Ski Conditioning,38,SAT,14:27,5
+Climbing,27,WED,10:38,7
+Merengue,39,SAT,10:15,19
+Olympic Lifting,21,MON,14:24,4
+Eskrima,51,FRI,9:08,11
+Aerial Yoga,43,TUE,20:42,3
+Xtend Barre,49,FRI,14:43,1
+Dance Cardio,36,FRI,16:13,20
+Kettlebell,34,TUE,14:03,21
+Water Aerobics,40,SAT,12:23,7
+Gyrotonic,34,FRI,17:29,12
+Vinyasa Flow,54,MON,11:53,20
+Wallyball,31,FRI,16:42,14
+Cycling,24,SAT,8:03,19
+Rope Skipping,44,FRI,8:45,4
+MMA,35,SAT,11:50,7
+Boxing,42,SAT,12:08,8
+Hiking,36,FRI,15:13,3
+Piloxing Barre,25,MON,19:56,9
+Cardio Barre,37,THU,8:35,16
+Piloxing,41,TUE,14:56,6
+Kettlebell,29,WED,8:25,14
+Interval Training,47,WED,15:38,17
+Yoga,50,SAT,17:28,12
+Spin,47,FRI,13:47,7
