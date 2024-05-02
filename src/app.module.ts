@@ -23,4 +23,6 @@ import { ProtocolsModule } from './protocols/protocols.module';
             SubscriptionsModule, BoughtSubscriptionsModule, TransactionsModule,
             CategoriesModule, ExpensesModule, IncomesModule, DatasetModule, ProtocolsModule],
 })
-export class AppModule {}
+export class AppModule {
+
+}
